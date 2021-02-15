@@ -1,0 +1,25 @@
+
+export enum codestar {
+ AssociateTeamMember = 'codestar:AssociateTeamMember',
+ CreateProject = 'codestar:CreateProject',
+ CreateUserProfile = 'codestar:CreateUserProfile',
+ DeleteExtendedAccess = 'codestar:DeleteExtendedAccess',
+ DeleteProject = 'codestar:DeleteProject',
+ DeleteUserProfile = 'codestar:DeleteUserProfile',
+ DescribeProject = 'codestar:DescribeProject',
+ DescribeUserProfile = 'codestar:DescribeUserProfile',
+ DisassociateTeamMember = 'codestar:DisassociateTeamMember',
+ GetExtendedAccess = 'codestar:GetExtendedAccess',
+ ListProjects = 'codestar:ListProjects',
+ ListResources = 'codestar:ListResources',
+ ListTagsForProject = 'codestar:ListTagsForProject',
+ ListTeamMembers = 'codestar:ListTeamMembers',
+ ListUserProfiles = 'codestar:ListUserProfiles',
+ PutExtendedAccess = 'codestar:PutExtendedAccess',
+ TagProject = 'codestar:TagProject',
+ UntagProject = 'codestar:UntagProject',
+ UpdateProject = 'codestar:UpdateProject',
+ UpdateTeamMember = 'codestar:UpdateTeamMember',
+ UpdateUserProfile = 'codestar:UpdateUserProfile',
+
+}

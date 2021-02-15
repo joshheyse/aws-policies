@@ -1,0 +1,28 @@
+
+export enum deeplens {
+ AssociateServiceRoleToAccount = 'deeplens:AssociateServiceRoleToAccount',
+ BatchGetDevice = 'deeplens:BatchGetDevice',
+ BatchGetModel = 'deeplens:BatchGetModel',
+ BatchGetProject = 'deeplens:BatchGetProject',
+ CreateDeviceCertificates = 'deeplens:CreateDeviceCertificates',
+ CreateModel = 'deeplens:CreateModel',
+ CreateProject = 'deeplens:CreateProject',
+ DeleteModel = 'deeplens:DeleteModel',
+ DeleteProject = 'deeplens:DeleteProject',
+ DeployProject = 'deeplens:DeployProject',
+ DeregisterDevice = 'deeplens:DeregisterDevice',
+ GetAssociatedResources = 'deeplens:GetAssociatedResources',
+ GetDeploymentStatus = 'deeplens:GetDeploymentStatus',
+ GetDevice = 'deeplens:GetDevice',
+ GetModel = 'deeplens:GetModel',
+ GetProject = 'deeplens:GetProject',
+ ImportProjectFromTemplate = 'deeplens:ImportProjectFromTemplate',
+ ListDeployments = 'deeplens:ListDeployments',
+ ListDevices = 'deeplens:ListDevices',
+ ListModels = 'deeplens:ListModels',
+ ListProjects = 'deeplens:ListProjects',
+ RegisterDevice = 'deeplens:RegisterDevice',
+ RemoveProject = 'deeplens:RemoveProject',
+ UpdateProject = 'deeplens:UpdateProject',
+
+}

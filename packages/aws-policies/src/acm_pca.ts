@@ -1,0 +1,27 @@
+
+export enum acm_pca {
+ CreateCertificateAuthority = 'acm-pca:CreateCertificateAuthority',
+ CreateCertificateAuthorityAuditReport = 'acm-pca:CreateCertificateAuthorityAuditReport',
+ CreatePermission = 'acm-pca:CreatePermission',
+ DeleteCertificateAuthority = 'acm-pca:DeleteCertificateAuthority',
+ DeletePermission = 'acm-pca:DeletePermission',
+ DeletePolicy = 'acm-pca:DeletePolicy',
+ DescribeCertificateAuthority = 'acm-pca:DescribeCertificateAuthority',
+ DescribeCertificateAuthorityAuditReport = 'acm-pca:DescribeCertificateAuthorityAuditReport',
+ GetCertificate = 'acm-pca:GetCertificate',
+ GetCertificateAuthorityCertificate = 'acm-pca:GetCertificateAuthorityCertificate',
+ GetCertificateAuthorityCsr = 'acm-pca:GetCertificateAuthorityCsr',
+ GetPolicy = 'acm-pca:GetPolicy',
+ ImportCertificateAuthorityCertificate = 'acm-pca:ImportCertificateAuthorityCertificate',
+ IssueCertificate = 'acm-pca:IssueCertificate',
+ ListCertificateAuthorities = 'acm-pca:ListCertificateAuthorities',
+ ListPermissions = 'acm-pca:ListPermissions',
+ ListTags = 'acm-pca:ListTags',
+ PutPolicy = 'acm-pca:PutPolicy',
+ RestoreCertificateAuthority = 'acm-pca:RestoreCertificateAuthority',
+ RevokeCertificate = 'acm-pca:RevokeCertificate',
+ TagCertificateAuthority = 'acm-pca:TagCertificateAuthority',
+ UntagCertificateAuthority = 'acm-pca:UntagCertificateAuthority',
+ UpdateCertificateAuthority = 'acm-pca:UpdateCertificateAuthority',
+
+}

@@ -1,0 +1,27 @@
+
+export enum appflow {
+ CreateConnectorProfile = 'appflow:CreateConnectorProfile',
+ CreateFlow = 'appflow:CreateFlow',
+ DeleteConnectorProfile = 'appflow:DeleteConnectorProfile',
+ DeleteFlow = 'appflow:DeleteFlow',
+ DescribeConnectorEntity = 'appflow:DescribeConnectorEntity',
+ DescribeConnectorFields = 'appflow:DescribeConnectorFields',
+ DescribeConnectorProfiles = 'appflow:DescribeConnectorProfiles',
+ DescribeConnectors = 'appflow:DescribeConnectors',
+ DescribeFlow = 'appflow:DescribeFlow',
+ DescribeFlowExecution = 'appflow:DescribeFlowExecution',
+ DescribeFlowExecutionRecords = 'appflow:DescribeFlowExecutionRecords',
+ DescribeFlows = 'appflow:DescribeFlows',
+ ListConnectorEntities = 'appflow:ListConnectorEntities',
+ ListConnectorFields = 'appflow:ListConnectorFields',
+ ListFlows = 'appflow:ListFlows',
+ ListTagsForResource = 'appflow:ListTagsForResource',
+ RunFlow = 'appflow:RunFlow',
+ StartFlow = 'appflow:StartFlow',
+ StopFlow = 'appflow:StopFlow',
+ TagResource = 'appflow:TagResource',
+ UntagResource = 'appflow:UntagResource',
+ UpdateConnectorProfile = 'appflow:UpdateConnectorProfile',
+ UpdateFlow = 'appflow:UpdateFlow',
+
+}

@@ -1,0 +1,27 @@
+
+export enum codeguru_profiler {
+ AddNotificationChannels = 'codeguru-profiler:AddNotificationChannels',
+ BatchGetFrameMetricData = 'codeguru-profiler:BatchGetFrameMetricData',
+ ConfigureAgent = 'codeguru-profiler:ConfigureAgent',
+ CreateProfilingGroup = 'codeguru-profiler:CreateProfilingGroup',
+ DeleteProfilingGroup = 'codeguru-profiler:DeleteProfilingGroup',
+ DescribeProfilingGroup = 'codeguru-profiler:DescribeProfilingGroup',
+ GetFindingsReportAccountSummary = 'codeguru-profiler:GetFindingsReportAccountSummary',
+ GetNotificationConfiguration = 'codeguru-profiler:GetNotificationConfiguration',
+ GetPolicy = 'codeguru-profiler:GetPolicy',
+ GetProfile = 'codeguru-profiler:GetProfile',
+ GetRecommendations = 'codeguru-profiler:GetRecommendations',
+ ListFindingsReports = 'codeguru-profiler:ListFindingsReports',
+ ListProfileTimes = 'codeguru-profiler:ListProfileTimes',
+ ListProfilingGroups = 'codeguru-profiler:ListProfilingGroups',
+ ListTagsForResource = 'codeguru-profiler:ListTagsForResource',
+ PostAgentProfile = 'codeguru-profiler:PostAgentProfile',
+ PutPermission = 'codeguru-profiler:PutPermission',
+ RemoveNotificationChannel = 'codeguru-profiler:RemoveNotificationChannel',
+ RemovePermission = 'codeguru-profiler:RemovePermission',
+ SubmitFeedback = 'codeguru-profiler:SubmitFeedback',
+ TagResource = 'codeguru-profiler:TagResource',
+ UntagResource = 'codeguru-profiler:UntagResource',
+ UpdateProfilingGroup = 'codeguru-profiler:UpdateProfilingGroup',
+
+}

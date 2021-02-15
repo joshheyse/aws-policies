@@ -1,0 +1,27 @@
+
+export enum mobilehub {
+ CreateProject = 'mobilehub:CreateProject',
+ CreateServiceRole = 'mobilehub:CreateServiceRole',
+ DeleteProject = 'mobilehub:DeleteProject',
+ DeleteProjectSnapshot = 'mobilehub:DeleteProjectSnapshot',
+ DeployToStage = 'mobilehub:DeployToStage',
+ DescribeBundle = 'mobilehub:DescribeBundle',
+ ExportBundle = 'mobilehub:ExportBundle',
+ ExportProject = 'mobilehub:ExportProject',
+ GenerateProjectParameters = 'mobilehub:GenerateProjectParameters',
+ GetProject = 'mobilehub:GetProject',
+ GetProjectSnapshot = 'mobilehub:GetProjectSnapshot',
+ ImportProject = 'mobilehub:ImportProject',
+ InstallBundle = 'mobilehub:InstallBundle',
+ ListAvailableConnectors = 'mobilehub:ListAvailableConnectors',
+ ListAvailableFeatures = 'mobilehub:ListAvailableFeatures',
+ ListAvailableRegions = 'mobilehub:ListAvailableRegions',
+ ListBundles = 'mobilehub:ListBundles',
+ ListProjectSnapshots = 'mobilehub:ListProjectSnapshots',
+ ListProjects = 'mobilehub:ListProjects',
+ SynchronizeProject = 'mobilehub:SynchronizeProject',
+ UpdateProject = 'mobilehub:UpdateProject',
+ ValidateProject = 'mobilehub:ValidateProject',
+ VerifyServiceRole = 'mobilehub:VerifyServiceRole',
+
+}

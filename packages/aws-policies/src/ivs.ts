@@ -1,0 +1,26 @@
+
+export enum ivs {
+ BatchGetChannel = 'ivs:BatchGetChannel',
+ BatchGetStreamKey = 'ivs:BatchGetStreamKey',
+ CreateChannel = 'ivs:CreateChannel',
+ CreateStreamKey = 'ivs:CreateStreamKey',
+ DeleteChannel = 'ivs:DeleteChannel',
+ DeletePlaybackKeyPair = 'ivs:DeletePlaybackKeyPair',
+ DeleteStreamKey = 'ivs:DeleteStreamKey',
+ GetChannel = 'ivs:GetChannel',
+ GetPlaybackKeyPair = 'ivs:GetPlaybackKeyPair',
+ GetStream = 'ivs:GetStream',
+ GetStreamKey = 'ivs:GetStreamKey',
+ ImportPlaybackKeyPair = 'ivs:ImportPlaybackKeyPair',
+ ListChannels = 'ivs:ListChannels',
+ ListPlaybackKeyPairs = 'ivs:ListPlaybackKeyPairs',
+ ListStreamKeys = 'ivs:ListStreamKeys',
+ ListStreams = 'ivs:ListStreams',
+ ListTagsForResource = 'ivs:ListTagsForResource',
+ PutMetadata = 'ivs:PutMetadata',
+ StopStream = 'ivs:StopStream',
+ TagResource = 'ivs:TagResource',
+ UntagResource = 'ivs:UntagResource',
+ UpdateChannel = 'ivs:UpdateChannel',
+
+}

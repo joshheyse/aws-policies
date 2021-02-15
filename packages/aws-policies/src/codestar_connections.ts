@@ -1,0 +1,25 @@
+
+export enum codestar_connections {
+ CreateConnection = 'codestar-connections:CreateConnection',
+ CreateHost = 'codestar-connections:CreateHost',
+ DeleteConnection = 'codestar-connections:DeleteConnection',
+ DeleteHost = 'codestar-connections:DeleteHost',
+ GetConnection = 'codestar-connections:GetConnection',
+ GetHost = 'codestar-connections:GetHost',
+ GetIndividualAccessToken = 'codestar-connections:GetIndividualAccessToken',
+ GetInstallationUrl = 'codestar-connections:GetInstallationUrl',
+ ListConnections = 'codestar-connections:ListConnections',
+ ListHosts = 'codestar-connections:ListHosts',
+ ListInstallationTargets = 'codestar-connections:ListInstallationTargets',
+ ListTagsForResource = 'codestar-connections:ListTagsForResource',
+ PassConnection = 'codestar-connections:PassConnection',
+ RegisterAppCode = 'codestar-connections:RegisterAppCode',
+ StartAppRegistrationHandshake = 'codestar-connections:StartAppRegistrationHandshake',
+ StartOAuthHandshake = 'codestar-connections:StartOAuthHandshake',
+ TagResource = 'codestar-connections:TagResource',
+ UntagResource = 'codestar-connections:UntagResource',
+ UpdateConnectionInstallation = 'codestar-connections:UpdateConnectionInstallation',
+ UpdateHost = 'codestar-connections:UpdateHost',
+ UseConnection = 'codestar-connections:UseConnection',
+
+}

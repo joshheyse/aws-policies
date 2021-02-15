@@ -1,0 +1,27 @@
+
+export enum managedblockchain {
+ CreateMember = 'managedblockchain:CreateMember',
+ CreateNetwork = 'managedblockchain:CreateNetwork',
+ CreateNode = 'managedblockchain:CreateNode',
+ CreateProposal = 'managedblockchain:CreateProposal',
+ DeleteMember = 'managedblockchain:DeleteMember',
+ DeleteNode = 'managedblockchain:DeleteNode',
+ GetMember = 'managedblockchain:GetMember',
+ GetNetwork = 'managedblockchain:GetNetwork',
+ GetNode = 'managedblockchain:GetNode',
+ GetProposal = 'managedblockchain:GetProposal',
+ ListInvitations = 'managedblockchain:ListInvitations',
+ ListMembers = 'managedblockchain:ListMembers',
+ ListNetworks = 'managedblockchain:ListNetworks',
+ ListNodes = 'managedblockchain:ListNodes',
+ ListProposalVotes = 'managedblockchain:ListProposalVotes',
+ ListProposals = 'managedblockchain:ListProposals',
+ ListTagsForResource = 'managedblockchain:ListTagsForResource',
+ RejectInvitation = 'managedblockchain:RejectInvitation',
+ TagResource = 'managedblockchain:TagResource',
+ UntagResource = 'managedblockchain:UntagResource',
+ UpdateMember = 'managedblockchain:UpdateMember',
+ UpdateNode = 'managedblockchain:UpdateNode',
+ VoteOnProposal = 'managedblockchain:VoteOnProposal',
+
+}

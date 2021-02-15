@@ -1,0 +1,23 @@
+{
+  "name": "aws_policies",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "generate": "node --loader ts-node/esm.mjs --experimental-top-level-await generate.ts",
+    "build": "tsc --project build_tsconfig.jsonc"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.0.5",
+    "@types/lodash": "^4.14.168",
+    "@types/node-fetch": "^2.5.8",
+    "ejs": "^3.1.6",
+    "lerna": "^3.22.1",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}

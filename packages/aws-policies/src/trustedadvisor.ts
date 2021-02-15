@@ -1,0 +1,25 @@
+
+export enum trustedadvisor {
+ DescribeAccount = 'trustedadvisor:DescribeAccount',
+ DescribeAccountAccess = 'trustedadvisor:DescribeAccountAccess',
+ DescribeCheckItems = 'trustedadvisor:DescribeCheckItems',
+ DescribeCheckRefreshStatuses = 'trustedadvisor:DescribeCheckRefreshStatuses',
+ DescribeCheckSummaries = 'trustedadvisor:DescribeCheckSummaries',
+ DescribeChecks = 'trustedadvisor:DescribeChecks',
+ DescribeNotificationPreferences = 'trustedadvisor:DescribeNotificationPreferences',
+ DescribeOrganization = 'trustedadvisor:DescribeOrganization',
+ DescribeOrganizationAccounts = 'trustedadvisor:DescribeOrganizationAccounts',
+ DescribeReports = 'trustedadvisor:DescribeReports',
+ DescribeServiceMetadata = 'trustedadvisor:DescribeServiceMetadata',
+ ExcludeCheckItems = 'trustedadvisor:ExcludeCheckItems',
+ GenerateReport = 'trustedadvisor:GenerateReport',
+ IncludeCheckItems = 'trustedadvisor:IncludeCheckItems',
+ ListAccountsForParent = 'trustedadvisor:ListAccountsForParent',
+ ListOrganizationalUnitsForParent = 'trustedadvisor:ListOrganizationalUnitsForParent',
+ ListRoots = 'trustedadvisor:ListRoots',
+ RefreshCheck = 'trustedadvisor:RefreshCheck',
+ SetAccountAccess = 'trustedadvisor:SetAccountAccess',
+ SetOrganizationAccess = 'trustedadvisor:SetOrganizationAccess',
+ UpdateNotificationPreferences = 'trustedadvisor:UpdateNotificationPreferences',
+
+}

@@ -1,0 +1,26 @@
+
+export enum lookoutequipment {
+ CreateDataset = 'lookoutequipment:CreateDataset',
+ CreateInferenceScheduler = 'lookoutequipment:CreateInferenceScheduler',
+ CreateModel = 'lookoutequipment:CreateModel',
+ DeleteDataset = 'lookoutequipment:DeleteDataset',
+ DeleteInferenceScheduler = 'lookoutequipment:DeleteInferenceScheduler',
+ DeleteModel = 'lookoutequipment:DeleteModel',
+ DescribeDataIngestionJob = 'lookoutequipment:DescribeDataIngestionJob',
+ DescribeDataset = 'lookoutequipment:DescribeDataset',
+ DescribeInferenceScheduler = 'lookoutequipment:DescribeInferenceScheduler',
+ DescribeModel = 'lookoutequipment:DescribeModel',
+ ListDataIngestionJobs = 'lookoutequipment:ListDataIngestionJobs',
+ ListDatasets = 'lookoutequipment:ListDatasets',
+ ListInferenceExecutions = 'lookoutequipment:ListInferenceExecutions',
+ ListInferenceSchedulers = 'lookoutequipment:ListInferenceSchedulers',
+ ListModels = 'lookoutequipment:ListModels',
+ ListTagsForResource = 'lookoutequipment:ListTagsForResource',
+ StartDataIngestionJob = 'lookoutequipment:StartDataIngestionJob',
+ StartInferenceScheduler = 'lookoutequipment:StartInferenceScheduler',
+ StopInferenceScheduler = 'lookoutequipment:StopInferenceScheduler',
+ TagResource = 'lookoutequipment:TagResource',
+ UntagResource = 'lookoutequipment:UntagResource',
+ UpdateInferenceScheduler = 'lookoutequipment:UpdateInferenceScheduler',
+
+}

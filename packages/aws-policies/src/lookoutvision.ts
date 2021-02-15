@@ -1,0 +1,26 @@
+
+export enum lookoutvision {
+ CreateDataset = 'lookoutvision:CreateDataset',
+ CreateModel = 'lookoutvision:CreateModel',
+ CreateProject = 'lookoutvision:CreateProject',
+ DeleteDataset = 'lookoutvision:DeleteDataset',
+ DeleteModel = 'lookoutvision:DeleteModel',
+ DeleteProject = 'lookoutvision:DeleteProject',
+ DescribeDataset = 'lookoutvision:DescribeDataset',
+ DescribeModel = 'lookoutvision:DescribeModel',
+ DescribeProject = 'lookoutvision:DescribeProject',
+ DescribeTrialDetection = 'lookoutvision:DescribeTrialDetection',
+ DetectAnomalies = 'lookoutvision:DetectAnomalies',
+ ListDatasetEntries = 'lookoutvision:ListDatasetEntries',
+ ListModels = 'lookoutvision:ListModels',
+ ListProjects = 'lookoutvision:ListProjects',
+ ListTagsForResource = 'lookoutvision:ListTagsForResource',
+ ListTrialDetections = 'lookoutvision:ListTrialDetections',
+ StartModel = 'lookoutvision:StartModel',
+ StartTrialDetection = 'lookoutvision:StartTrialDetection',
+ StopModel = 'lookoutvision:StopModel',
+ TagResource = 'lookoutvision:TagResource',
+ UntagResource = 'lookoutvision:UntagResource',
+ UpdateDatasetEntries = 'lookoutvision:UpdateDatasetEntries',
+
+}

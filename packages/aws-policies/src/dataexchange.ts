@@ -1,0 +1,27 @@
+
+export enum dataexchange {
+ CancelJob = 'dataexchange:CancelJob',
+ CreateAsset = 'dataexchange:CreateAsset',
+ CreateDataSet = 'dataexchange:CreateDataSet',
+ CreateJob = 'dataexchange:CreateJob',
+ CreateRevision = 'dataexchange:CreateRevision',
+ DeleteAsset = 'dataexchange:DeleteAsset',
+ DeleteDataSet = 'dataexchange:DeleteDataSet',
+ DeleteRevision = 'dataexchange:DeleteRevision',
+ GetAsset = 'dataexchange:GetAsset',
+ GetDataSet = 'dataexchange:GetDataSet',
+ GetJob = 'dataexchange:GetJob',
+ GetRevision = 'dataexchange:GetRevision',
+ ListDataSetRevisions = 'dataexchange:ListDataSetRevisions',
+ ListDataSets = 'dataexchange:ListDataSets',
+ ListJobs = 'dataexchange:ListJobs',
+ ListRevisionAssets = 'dataexchange:ListRevisionAssets',
+ ListTagsForResource = 'dataexchange:ListTagsForResource',
+ StartJob = 'dataexchange:StartJob',
+ TagResource = 'dataexchange:TagResource',
+ UntagResource = 'dataexchange:UntagResource',
+ UpdateAsset = 'dataexchange:UpdateAsset',
+ UpdateDataSet = 'dataexchange:UpdateDataSet',
+ UpdateRevision = 'dataexchange:UpdateRevision',
+
+}

@@ -1,0 +1,28 @@
+
+export enum amplifybackend {
+ CloneBackend = 'amplifybackend:CloneBackend',
+ CreateBackend = 'amplifybackend:CreateBackend',
+ CreateBackendAPI = 'amplifybackend:CreateBackendAPI',
+ CreateBackendAuth = 'amplifybackend:CreateBackendAuth',
+ CreateBackendConfig = 'amplifybackend:CreateBackendConfig',
+ CreateToken = 'amplifybackend:CreateToken',
+ DeleteBackend = 'amplifybackend:DeleteBackend',
+ DeleteBackendAPI = 'amplifybackend:DeleteBackendAPI',
+ DeleteBackendAuth = 'amplifybackend:DeleteBackendAuth',
+ DeleteToken = 'amplifybackend:DeleteToken',
+ GenerateBackendAPIModels = 'amplifybackend:GenerateBackendAPIModels',
+ GetBackend = 'amplifybackend:GetBackend',
+ GetBackendAPI = 'amplifybackend:GetBackendAPI',
+ GetBackendAPIModels = 'amplifybackend:GetBackendAPIModels',
+ GetBackendAuth = 'amplifybackend:GetBackendAuth',
+ GetBackendJob = 'amplifybackend:GetBackendJob',
+ GetToken = 'amplifybackend:GetToken',
+ ListBackendJobs = 'amplifybackend:ListBackendJobs',
+ RemoveAllBackends = 'amplifybackend:RemoveAllBackends',
+ RemoveBackendConfig = 'amplifybackend:RemoveBackendConfig',
+ UpdateBackendAPI = 'amplifybackend:UpdateBackendAPI',
+ UpdateBackendAuth = 'amplifybackend:UpdateBackendAuth',
+ UpdateBackendConfig = 'amplifybackend:UpdateBackendConfig',
+ UpdateBackendJob = 'amplifybackend:UpdateBackendJob',
+
+}

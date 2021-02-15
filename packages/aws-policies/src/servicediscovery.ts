@@ -1,0 +1,27 @@
+
+export enum servicediscovery {
+ CreateHttpNamespace = 'servicediscovery:CreateHttpNamespace',
+ CreatePrivateDnsNamespace = 'servicediscovery:CreatePrivateDnsNamespace',
+ CreatePublicDnsNamespace = 'servicediscovery:CreatePublicDnsNamespace',
+ CreateService = 'servicediscovery:CreateService',
+ DeleteNamespace = 'servicediscovery:DeleteNamespace',
+ DeleteService = 'servicediscovery:DeleteService',
+ DeregisterInstance = 'servicediscovery:DeregisterInstance',
+ DiscoverInstances = 'servicediscovery:DiscoverInstances',
+ GetInstance = 'servicediscovery:GetInstance',
+ GetInstancesHealthStatus = 'servicediscovery:GetInstancesHealthStatus',
+ GetNamespace = 'servicediscovery:GetNamespace',
+ GetOperation = 'servicediscovery:GetOperation',
+ GetService = 'servicediscovery:GetService',
+ ListInstances = 'servicediscovery:ListInstances',
+ ListNamespaces = 'servicediscovery:ListNamespaces',
+ ListOperations = 'servicediscovery:ListOperations',
+ ListServices = 'servicediscovery:ListServices',
+ ListTagsForResource = 'servicediscovery:ListTagsForResource',
+ RegisterInstance = 'servicediscovery:RegisterInstance',
+ TagResource = 'servicediscovery:TagResource',
+ UntagResource = 'servicediscovery:UntagResource',
+ UpdateInstanceCustomHealthStatus = 'servicediscovery:UpdateInstanceCustomHealthStatus',
+ UpdateService = 'servicediscovery:UpdateService',
+
+}

@@ -1,0 +1,28 @@
+
+export enum ram {
+ AcceptResourceShareInvitation = 'ram:AcceptResourceShareInvitation',
+ AssociateResourceShare = 'ram:AssociateResourceShare',
+ AssociateResourceSharePermission = 'ram:AssociateResourceSharePermission',
+ CreateResourceShare = 'ram:CreateResourceShare',
+ DeleteResourceShare = 'ram:DeleteResourceShare',
+ DisassociateResourceShare = 'ram:DisassociateResourceShare',
+ DisassociateResourceSharePermission = 'ram:DisassociateResourceSharePermission',
+ EnableSharingWithAwsOrganization = 'ram:EnableSharingWithAwsOrganization',
+ GetPermission = 'ram:GetPermission',
+ GetResourcePolicies = 'ram:GetResourcePolicies',
+ GetResourceShareAssociations = 'ram:GetResourceShareAssociations',
+ GetResourceShareInvitations = 'ram:GetResourceShareInvitations',
+ GetResourceShares = 'ram:GetResourceShares',
+ ListPendingInvitationResources = 'ram:ListPendingInvitationResources',
+ ListPermissions = 'ram:ListPermissions',
+ ListPrincipals = 'ram:ListPrincipals',
+ ListResourceSharePermissions = 'ram:ListResourceSharePermissions',
+ ListResourceTypes = 'ram:ListResourceTypes',
+ ListResources = 'ram:ListResources',
+ PromoteResourceShareCreatedFromPolicy = 'ram:PromoteResourceShareCreatedFromPolicy',
+ RejectResourceShareInvitation = 'ram:RejectResourceShareInvitation',
+ TagResource = 'ram:TagResource',
+ UntagResource = 'ram:UntagResource',
+ UpdateResourceShare = 'ram:UpdateResourceShare',
+
+}

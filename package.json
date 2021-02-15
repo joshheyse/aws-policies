@@ -1,0 +1,22 @@
+{
+  "name": "aws-policies",
+  "version": "1.0.0",
+  "description": "Typesafe AWS Policy Actions",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "keywords": [
+    "AWS",
+    "policy",
+    "actions",
+    "typescript"
+  ],
+  "author": "Josh Heyse <josh@heyse.us>",
+  "homepage": "https://github.com/joshheyse/aws-policies",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshheyse/aws-policies"
+  },
+  "license": "MIT"
+}

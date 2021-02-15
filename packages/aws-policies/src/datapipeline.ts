@@ -1,0 +1,25 @@
+
+export enum datapipeline {
+ ActivatePipeline = 'datapipeline:ActivatePipeline',
+ AddTags = 'datapipeline:AddTags',
+ CreatePipeline = 'datapipeline:CreatePipeline',
+ DeactivatePipeline = 'datapipeline:DeactivatePipeline',
+ DeletePipeline = 'datapipeline:DeletePipeline',
+ DescribeObjects = 'datapipeline:DescribeObjects',
+ DescribePipelines = 'datapipeline:DescribePipelines',
+ EvaluateExpression = 'datapipeline:EvaluateExpression',
+ GetAccountLimits = 'datapipeline:GetAccountLimits',
+ GetPipelineDefinition = 'datapipeline:GetPipelineDefinition',
+ ListPipelines = 'datapipeline:ListPipelines',
+ PollForTask = 'datapipeline:PollForTask',
+ PutAccountLimits = 'datapipeline:PutAccountLimits',
+ PutPipelineDefinition = 'datapipeline:PutPipelineDefinition',
+ QueryObjects = 'datapipeline:QueryObjects',
+ RemoveTags = 'datapipeline:RemoveTags',
+ ReportTaskProgress = 'datapipeline:ReportTaskProgress',
+ ReportTaskRunnerHeartbeat = 'datapipeline:ReportTaskRunnerHeartbeat',
+ SetStatus = 'datapipeline:SetStatus',
+ SetTaskStatus = 'datapipeline:SetTaskStatus',
+ ValidatePipelineDefinition = 'datapipeline:ValidatePipelineDefinition',
+
+}

@@ -1,0 +1,26 @@
+
+export enum mq {
+ CreateBroker = 'mq:CreateBroker',
+ CreateConfiguration = 'mq:CreateConfiguration',
+ CreateTags = 'mq:CreateTags',
+ CreateUser = 'mq:CreateUser',
+ DeleteBroker = 'mq:DeleteBroker',
+ DeleteTags = 'mq:DeleteTags',
+ DeleteUser = 'mq:DeleteUser',
+ DescribeBroker = 'mq:DescribeBroker',
+ DescribeBrokerEngineTypes = 'mq:DescribeBrokerEngineTypes',
+ DescribeBrokerInstanceOptions = 'mq:DescribeBrokerInstanceOptions',
+ DescribeConfiguration = 'mq:DescribeConfiguration',
+ DescribeConfigurationRevision = 'mq:DescribeConfigurationRevision',
+ DescribeUser = 'mq:DescribeUser',
+ ListBrokers = 'mq:ListBrokers',
+ ListConfigurationRevisions = 'mq:ListConfigurationRevisions',
+ ListConfigurations = 'mq:ListConfigurations',
+ ListTags = 'mq:ListTags',
+ ListUsers = 'mq:ListUsers',
+ RebootBroker = 'mq:RebootBroker',
+ UpdateBroker = 'mq:UpdateBroker',
+ UpdateConfiguration = 'mq:UpdateConfiguration',
+ UpdateUser = 'mq:UpdateUser',
+
+}

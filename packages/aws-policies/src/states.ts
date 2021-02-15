@@ -1,0 +1,27 @@
+
+export enum states {
+ CreateActivity = 'states:CreateActivity',
+ CreateStateMachine = 'states:CreateStateMachine',
+ DeleteActivity = 'states:DeleteActivity',
+ DeleteStateMachine = 'states:DeleteStateMachine',
+ DescribeActivity = 'states:DescribeActivity',
+ DescribeExecution = 'states:DescribeExecution',
+ DescribeStateMachine = 'states:DescribeStateMachine',
+ DescribeStateMachineForExecution = 'states:DescribeStateMachineForExecution',
+ GetActivityTask = 'states:GetActivityTask',
+ GetExecutionHistory = 'states:GetExecutionHistory',
+ ListActivities = 'states:ListActivities',
+ ListExecutions = 'states:ListExecutions',
+ ListStateMachines = 'states:ListStateMachines',
+ ListTagsForResource = 'states:ListTagsForResource',
+ SendTaskFailure = 'states:SendTaskFailure',
+ SendTaskHeartbeat = 'states:SendTaskHeartbeat',
+ SendTaskSuccess = 'states:SendTaskSuccess',
+ StartExecution = 'states:StartExecution',
+ StartSyncExecution = 'states:StartSyncExecution',
+ StopExecution = 'states:StopExecution',
+ TagResource = 'states:TagResource',
+ UntagResource = 'states:UntagResource',
+ UpdateStateMachine = 'states:UpdateStateMachine',
+
+}
