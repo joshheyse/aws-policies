@@ -5,7 +5,12 @@
 ## Usage
 
 ```
-const awsPolicies = require('aws_policies');
+import {s3} from 'aws-policies';
+
+
+
+
+
 
 // TODO: DEMONSTRATE API
 ```
