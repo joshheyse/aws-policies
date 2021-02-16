@@ -1,5 +1,11 @@
 
 export enum access_analyzer {
+ All = 'access-analyzer:*',
+ Create = 'access-analyzer:Create*',
+ Delete = 'access-analyzer:Delete*',
+ Get = 'access-analyzer:Get*',
+ List = 'access-analyzer:List*',
+ Update = 'access-analyzer:Update*',
  ApplyArchiveRule = 'access-analyzer:ApplyArchiveRule',
  CreateAnalyzer = 'access-analyzer:CreateAnalyzer',
  CreateArchiveRule = 'access-analyzer:CreateArchiveRule',

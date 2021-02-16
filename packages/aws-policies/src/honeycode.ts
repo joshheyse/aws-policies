@@ -1,5 +1,8 @@
 
 export enum honeycode {
+ All = 'honeycode:*',
+ Batch = 'honeycode:Batch*',
+ List = 'honeycode:List*',
  ApproveTeamAssociation = 'honeycode:ApproveTeamAssociation',
  BatchCreateTableRows = 'honeycode:BatchCreateTableRows',
  BatchDeleteTableRows = 'honeycode:BatchDeleteTableRows',

@@ -1,5 +1,13 @@
 
 export enum iotthingsgraph {
+ All = 'iotthingsgraph:*',
+ Create = 'iotthingsgraph:Create*',
+ Delete = 'iotthingsgraph:Delete*',
+ Deprecate = 'iotthingsgraph:Deprecate*',
+ Get = 'iotthingsgraph:Get*',
+ List = 'iotthingsgraph:List*',
+ Search = 'iotthingsgraph:Search*',
+ Update = 'iotthingsgraph:Update*',
  AssociateEntityToThing = 'iotthingsgraph:AssociateEntityToThing',
  CreateFlowTemplate = 'iotthingsgraph:CreateFlowTemplate',
  CreateSystemInstance = 'iotthingsgraph:CreateSystemInstance',

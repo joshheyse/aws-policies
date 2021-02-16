@@ -1,5 +1,7 @@
 
 export enum apigateway {
+ All = 'apigateway:*',
+ P = 'apigateway:P*',
  DELETE = 'apigateway:DELETE',
  GET = 'apigateway:GET',
  PATCH = 'apigateway:PATCH',

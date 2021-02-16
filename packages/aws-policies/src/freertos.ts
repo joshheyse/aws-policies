@@ -1,5 +1,9 @@
 
 export enum freertos {
+ All = 'freertos:*',
+ Describe = 'freertos:Describe*',
+ Get = 'freertos:Get*',
+ List = 'freertos:List*',
  CreateSoftwareConfiguration = 'freertos:CreateSoftwareConfiguration',
  DeleteSoftwareConfiguration = 'freertos:DeleteSoftwareConfiguration',
  DescribeHardwarePlatform = 'freertos:DescribeHardwarePlatform',

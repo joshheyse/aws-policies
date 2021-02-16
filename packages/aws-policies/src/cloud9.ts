@@ -1,5 +1,11 @@
 
 export enum cloud9 {
+ All = 'cloud9:*',
+ Create = 'cloud9:Create*',
+ Delete = 'cloud9:Delete*',
+ Describe = 'cloud9:Describe*',
+ List = 'cloud9:List*',
+ Update = 'cloud9:Update*',
  CreateEnvironmentEC2 = 'cloud9:CreateEnvironmentEC2',
  CreateEnvironmentMembership = 'cloud9:CreateEnvironmentMembership',
  DeleteEnvironment = 'cloud9:DeleteEnvironment',

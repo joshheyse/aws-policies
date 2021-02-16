@@ -1,5 +1,13 @@
 
 export enum greengrass {
+ All = 'greengrass:*',
+ Create = 'greengrass:Create*',
+ Delete = 'greengrass:Delete*',
+ Get = 'greengrass:Get*',
+ List = 'greengrass:List*',
+ Associate = 'greengrass:Associate*',
+ Disassociate = 'greengrass:Disassociate*',
+ Update = 'greengrass:Update*',
  CancelDeployment = 'greengrass:CancelDeployment',
  CreateComponentVersion = 'greengrass:CreateComponentVersion',
  CreateDeployment = 'greengrass:CreateDeployment',

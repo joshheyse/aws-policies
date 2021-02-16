@@ -1,5 +1,15 @@
 
 export enum kinesisvideo {
+ All = 'kinesisvideo:*',
+ Connect = 'kinesisvideo:Connect*',
+ Create = 'kinesisvideo:Create*',
+ Delete = 'kinesisvideo:Delete*',
+ Describe = 'kinesisvideo:Describe*',
+ Get = 'kinesisvideo:Get*',
+ List = 'kinesisvideo:List*',
+ Tag = 'kinesisvideo:Tag*',
+ Untag = 'kinesisvideo:Untag*',
+ Update = 'kinesisvideo:Update*',
  ConnectAsMaster = 'kinesisvideo:ConnectAsMaster',
  ConnectAsViewer = 'kinesisvideo:ConnectAsViewer',
  CreateSignalingChannel = 'kinesisvideo:CreateSignalingChannel',

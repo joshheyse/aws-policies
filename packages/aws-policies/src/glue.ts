@@ -1,5 +1,15 @@
 
 export enum glue {
+ All = 'glue:*',
+ Batch = 'glue:Batch*',
+ Create = 'glue:Create*',
+ Delete = 'glue:Delete*',
+ Get = 'glue:Get*',
+ List = 'glue:List*',
+ Put = 'glue:Put*',
+ Start = 'glue:Start*',
+ Stop = 'glue:Stop*',
+ Update = 'glue:Update*',
  BatchCreatePartition = 'glue:BatchCreatePartition',
  BatchDeleteConnection = 'glue:BatchDeleteConnection',
  BatchDeletePartition = 'glue:BatchDeletePartition',

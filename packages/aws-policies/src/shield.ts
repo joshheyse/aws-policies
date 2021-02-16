@@ -1,5 +1,13 @@
 
 export enum shield {
+ All = 'shield:*',
+ Associate = 'shield:Associate*',
+ Create = 'shield:Create*',
+ Delete = 'shield:Delete*',
+ Describe = 'shield:Describe*',
+ Disassociate = 'shield:Disassociate*',
+ List = 'shield:List*',
+ Update = 'shield:Update*',
  AssociateDRTLogBucket = 'shield:AssociateDRTLogBucket',
  AssociateDRTRole = 'shield:AssociateDRTRole',
  CreateProtection = 'shield:CreateProtection',

@@ -1,5 +1,11 @@
 
 export enum servicediscovery {
+ All = 'servicediscovery:*',
+ Create = 'servicediscovery:Create*',
+ Delete = 'servicediscovery:Delete*',
+ Get = 'servicediscovery:Get*',
+ List = 'servicediscovery:List*',
+ Update = 'servicediscovery:Update*',
  CreateHttpNamespace = 'servicediscovery:CreateHttpNamespace',
  CreatePrivateDnsNamespace = 'servicediscovery:CreatePrivateDnsNamespace',
  CreatePublicDnsNamespace = 'servicediscovery:CreatePublicDnsNamespace',

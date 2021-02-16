@@ -1,5 +1,11 @@
 
 export enum appmesh_preview {
+ All = 'appmesh-preview:*',
+ Create = 'appmesh-preview:Create*',
+ Delete = 'appmesh-preview:Delete*',
+ Describe = 'appmesh-preview:Describe*',
+ List = 'appmesh-preview:List*',
+ Update = 'appmesh-preview:Update*',
  CreateGatewayRoute = 'appmesh-preview:CreateGatewayRoute',
  CreateMesh = 'appmesh-preview:CreateMesh',
  CreateRoute = 'appmesh-preview:CreateRoute',

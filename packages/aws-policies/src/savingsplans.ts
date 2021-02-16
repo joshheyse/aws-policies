@@ -1,5 +1,7 @@
 
 export enum savingsplans {
+ All = 'savingsplans:*',
+ Describe = 'savingsplans:Describe*',
  CreateSavingsPlan = 'savingsplans:CreateSavingsPlan',
  DeleteQueuedSavingsPlan = 'savingsplans:DeleteQueuedSavingsPlan',
  DescribeSavingsPlanRates = 'savingsplans:DescribeSavingsPlanRates',

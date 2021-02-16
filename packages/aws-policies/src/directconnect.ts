@@ -1,5 +1,13 @@
 
 export enum directconnect {
+ All = 'directconnect:*',
+ Allocate = 'directconnect:Allocate*',
+ Associate = 'directconnect:Associate*',
+ Confirm = 'directconnect:Confirm*',
+ Create = 'directconnect:Create*',
+ Delete = 'directconnect:Delete*',
+ Describe = 'directconnect:Describe*',
+ Update = 'directconnect:Update*',
  AcceptDirectConnectGatewayAssociationProposal = 'directconnect:AcceptDirectConnectGatewayAssociationProposal',
  AllocateConnectionOnInterconnect = 'directconnect:AllocateConnectionOnInterconnect',
  AllocateHostedConnection = 'directconnect:AllocateHostedConnection',

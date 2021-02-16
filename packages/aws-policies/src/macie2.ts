@@ -1,5 +1,15 @@
 
 export enum macie2 {
+ All = 'macie2:*',
+ Create = 'macie2:Create*',
+ Delete = 'macie2:Delete*',
+ Describe = 'macie2:Describe*',
+ Disable = 'macie2:Disable*',
+ Disassociate = 'macie2:Disassociate*',
+ Enable = 'macie2:Enable*',
+ Get = 'macie2:Get*',
+ List = 'macie2:List*',
+ Update = 'macie2:Update*',
  AcceptInvitation = 'macie2:AcceptInvitation',
  BatchGetCustomDataIdentifiers = 'macie2:BatchGetCustomDataIdentifiers',
  CreateClassificationJob = 'macie2:CreateClassificationJob',

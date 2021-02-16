@@ -1,5 +1,15 @@
 
 export enum codebuild {
+ All = 'codebuild:*',
+ Batch = 'codebuild:Batch*',
+ Create = 'codebuild:Create*',
+ Delete = 'codebuild:Delete*',
+ Describe = 'codebuild:Describe*',
+ List = 'codebuild:List*',
+ Retry = 'codebuild:Retry*',
+ Start = 'codebuild:Start*',
+ Stop = 'codebuild:Stop*',
+ Update = 'codebuild:Update*',
  BatchDeleteBuilds = 'codebuild:BatchDeleteBuilds',
  BatchGetBuildBatches = 'codebuild:BatchGetBuildBatches',
  BatchGetBuilds = 'codebuild:BatchGetBuilds',

@@ -1,5 +1,11 @@
 
 export enum lookoutvision {
+ All = 'lookoutvision:*',
+ Create = 'lookoutvision:Create*',
+ Delete = 'lookoutvision:Delete*',
+ Describe = 'lookoutvision:Describe*',
+ List = 'lookoutvision:List*',
+ Start = 'lookoutvision:Start*',
  CreateDataset = 'lookoutvision:CreateDataset',
  CreateModel = 'lookoutvision:CreateModel',
  CreateProject = 'lookoutvision:CreateProject',

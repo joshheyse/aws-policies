@@ -1,5 +1,15 @@
 
 export enum elasticmapreduce {
+ All = 'elasticmapreduce:*',
+ Add = 'elasticmapreduce:Add*',
+ Create = 'elasticmapreduce:Create*',
+ Delete = 'elasticmapreduce:Delete*',
+ Describe = 'elasticmapreduce:Describe*',
+ Get = 'elasticmapreduce:Get*',
+ List = 'elasticmapreduce:List*',
+ Modify = 'elasticmapreduce:Modify*',
+ Put = 'elasticmapreduce:Put*',
+ Remove = 'elasticmapreduce:Remove*',
  AddInstanceFleet = 'elasticmapreduce:AddInstanceFleet',
  AddInstanceGroups = 'elasticmapreduce:AddInstanceGroups',
  AddJobFlowSteps = 'elasticmapreduce:AddJobFlowSteps',

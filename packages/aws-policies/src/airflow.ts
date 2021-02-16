@@ -1,5 +1,8 @@
 
 export enum airflow {
+ All = 'airflow:*',
+ Create = 'airflow:Create*',
+ List = 'airflow:List*',
  CreateCliToken = 'airflow:CreateCliToken',
  CreateEnvironment = 'airflow:CreateEnvironment',
  CreateWebLoginToken = 'airflow:CreateWebLoginToken',

@@ -1,5 +1,13 @@
 
 export enum organizations {
+ All = 'organizations:*',
+ Create = 'organizations:Create*',
+ Delete = 'organizations:Delete*',
+ Describe = 'organizations:Describe*',
+ Disable = 'organizations:Disable*',
+ Enable = 'organizations:Enable*',
+ List = 'organizations:List*',
+ Update = 'organizations:Update*',
  AcceptHandshake = 'organizations:AcceptHandshake',
  AttachPolicy = 'organizations:AttachPolicy',
  CancelHandshake = 'organizations:CancelHandshake',

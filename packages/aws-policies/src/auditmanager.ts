@@ -1,5 +1,14 @@
 
 export enum auditmanager {
+ All = 'auditmanager:*',
+ Batch = 'auditmanager:Batch*',
+ Create = 'auditmanager:Create*',
+ Delete = 'auditmanager:Delete*',
+ Deregister = 'auditmanager:Deregister*',
+ Get = 'auditmanager:Get*',
+ List = 'auditmanager:List*',
+ Register = 'auditmanager:Register*',
+ Update = 'auditmanager:Update*',
  AssociateAssessmentReportEvidenceFolder = 'auditmanager:AssociateAssessmentReportEvidenceFolder',
  BatchAssociateAssessmentReportEvidence = 'auditmanager:BatchAssociateAssessmentReportEvidence',
  BatchCreateDelegationByAssessment = 'auditmanager:BatchCreateDelegationByAssessment',

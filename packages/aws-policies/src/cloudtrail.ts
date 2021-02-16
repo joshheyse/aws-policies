@@ -1,5 +1,9 @@
 
 export enum cloudtrail {
+ All = 'cloudtrail:*',
+ Get = 'cloudtrail:Get*',
+ List = 'cloudtrail:List*',
+ Put = 'cloudtrail:Put*',
  AddTags = 'cloudtrail:AddTags',
  CreateTrail = 'cloudtrail:CreateTrail',
  DeleteTrail = 'cloudtrail:DeleteTrail',

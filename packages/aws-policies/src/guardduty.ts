@@ -1,5 +1,13 @@
 
 export enum guardduty {
+ All = 'guardduty:*',
+ Create = 'guardduty:Create*',
+ Delete = 'guardduty:Delete*',
+ Describe = 'guardduty:Describe*',
+ Disassociate = 'guardduty:Disassociate*',
+ Get = 'guardduty:Get*',
+ List = 'guardduty:List*',
+ Update = 'guardduty:Update*',
  AcceptInvitation = 'guardduty:AcceptInvitation',
  ArchiveFindings = 'guardduty:ArchiveFindings',
  CreateDetector = 'guardduty:CreateDetector',

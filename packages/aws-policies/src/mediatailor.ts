@@ -1,5 +1,7 @@
 
 export enum mediatailor {
+ All = 'mediatailor:*',
+ List = 'mediatailor:List*',
  DeletePlaybackConfiguration = 'mediatailor:DeletePlaybackConfiguration',
  GetPlaybackConfiguration = 'mediatailor:GetPlaybackConfiguration',
  ListPlaybackConfigurations = 'mediatailor:ListPlaybackConfigurations',

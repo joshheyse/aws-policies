@@ -1,5 +1,12 @@
 
 export enum discovery {
+ All = 'discovery:*',
+ Create = 'discovery:Create*',
+ Delete = 'discovery:Delete*',
+ Describe = 'discovery:Describe*',
+ List = 'discovery:List*',
+ Start = 'discovery:Start*',
+ Stop = 'discovery:Stop*',
  AssociateConfigurationItemsToApplication = 'discovery:AssociateConfigurationItemsToApplication',
  BatchDeleteImportData = 'discovery:BatchDeleteImportData',
  CreateApplication = 'discovery:CreateApplication',

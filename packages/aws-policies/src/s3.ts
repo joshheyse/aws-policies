@@ -1,5 +1,13 @@
 
 export enum s3 {
+ All = 's3:*',
+ Create = 's3:Create*',
+ Delete = 's3:Delete*',
+ Get = 's3:Get*',
+ List = 's3:List*',
+ Put = 's3:Put*',
+ Replicate = 's3:Replicate*',
+ Update = 's3:Update*',
  AbortMultipartUpload = 's3:AbortMultipartUpload',
  BypassGovernanceRetention = 's3:BypassGovernanceRetention',
  CreateAccessPoint = 's3:CreateAccessPoint',

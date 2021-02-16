@@ -1,5 +1,12 @@
 
 export enum networkmanager {
+ All = 'networkmanager:*',
+ Associate = 'networkmanager:Associate*',
+ Create = 'networkmanager:Create*',
+ Delete = 'networkmanager:Delete*',
+ Disassociate = 'networkmanager:Disassociate*',
+ Get = 'networkmanager:Get*',
+ Update = 'networkmanager:Update*',
  AssociateCustomerGateway = 'networkmanager:AssociateCustomerGateway',
  AssociateLink = 'networkmanager:AssociateLink',
  AssociateTransitGatewayConnectPeer = 'networkmanager:AssociateTransitGatewayConnectPeer',

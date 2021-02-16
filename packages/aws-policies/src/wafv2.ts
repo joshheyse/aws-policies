@@ -1,5 +1,13 @@
 
 export enum wafv2 {
+ All = 'wafv2:*',
+ Create = 'wafv2:Create*',
+ Delete = 'wafv2:Delete*',
+ Disassociate = 'wafv2:Disassociate*',
+ Get = 'wafv2:Get*',
+ List = 'wafv2:List*',
+ Put = 'wafv2:Put*',
+ Update = 'wafv2:Update*',
  AssociateWebACL = 'wafv2:AssociateWebACL',
  CheckCapacity = 'wafv2:CheckCapacity',
  CreateIPSet = 'wafv2:CreateIPSet',

@@ -1,5 +1,11 @@
 
 export enum mq {
+ All = 'mq:*',
+ Create = 'mq:Create*',
+ Delete = 'mq:Delete*',
+ Describe = 'mq:Describe*',
+ List = 'mq:List*',
+ Update = 'mq:Update*',
  CreateBroker = 'mq:CreateBroker',
  CreateConfiguration = 'mq:CreateConfiguration',
  CreateTags = 'mq:CreateTags',

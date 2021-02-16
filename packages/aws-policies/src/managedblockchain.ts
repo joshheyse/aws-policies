@@ -1,5 +1,11 @@
 
 export enum managedblockchain {
+ All = 'managedblockchain:*',
+ Create = 'managedblockchain:Create*',
+ Delete = 'managedblockchain:Delete*',
+ Get = 'managedblockchain:Get*',
+ List = 'managedblockchain:List*',
+ Update = 'managedblockchain:Update*',
  CreateMember = 'managedblockchain:CreateMember',
  CreateNetwork = 'managedblockchain:CreateNetwork',
  CreateNode = 'managedblockchain:CreateNode',

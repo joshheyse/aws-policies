@@ -1,5 +1,15 @@
 
 export enum dynamodb {
+ All = 'dynamodb:*',
+ Batch = 'dynamodb:Batch*',
+ Create = 'dynamodb:Create*',
+ Delete = 'dynamodb:Delete*',
+ Describe = 'dynamodb:Describe*',
+ Get = 'dynamodb:Get*',
+ List = 'dynamodb:List*',
+ Parti = 'dynamodb:Parti*',
+ Restore = 'dynamodb:Restore*',
+ Update = 'dynamodb:Update*',
  BatchGetItem = 'dynamodb:BatchGetItem',
  BatchWriteItem = 'dynamodb:BatchWriteItem',
  ConditionCheckItem = 'dynamodb:ConditionCheckItem',

@@ -1,5 +1,10 @@
 
 export enum fms {
+ All = 'fms:*',
+ Delete = 'fms:Delete*',
+ Get = 'fms:Get*',
+ List = 'fms:List*',
+ Put = 'fms:Put*',
  AssociateAdminAccount = 'fms:AssociateAdminAccount',
  DeleteAppsList = 'fms:DeleteAppsList',
  DeleteNotificationChannel = 'fms:DeleteNotificationChannel',

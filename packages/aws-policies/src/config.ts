@@ -1,5 +1,14 @@
 
 export enum config {
+ All = 'config:*',
+ Batch = 'config:Batch*',
+ Delete = 'config:Delete*',
+ Describe = 'config:Describe*',
+ Get = 'config:Get*',
+ List = 'config:List*',
+ Put = 'config:Put*',
+ Select = 'config:Select*',
+ Start = 'config:Start*',
  BatchGetAggregateResourceConfig = 'config:BatchGetAggregateResourceConfig',
  BatchGetResourceConfig = 'config:BatchGetResourceConfig',
  DeleteAggregationAuthorization = 'config:DeleteAggregationAuthorization',

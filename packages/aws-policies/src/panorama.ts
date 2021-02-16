@@ -1,5 +1,12 @@
 
 export enum panorama {
+ All = 'panorama:*',
+ Create = 'panorama:Create*',
+ Delete = 'panorama:Delete*',
+ Describe = 'panorama:Describe*',
+ Get = 'panorama:Get*',
+ List = 'panorama:List*',
+ Update = 'panorama:Update*',
  CreateApp = 'panorama:CreateApp',
  CreateAppDeployment = 'panorama:CreateAppDeployment',
  CreateAppVersion = 'panorama:CreateAppVersion',

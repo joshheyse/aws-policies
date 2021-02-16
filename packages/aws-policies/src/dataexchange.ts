@@ -1,5 +1,11 @@
 
 export enum dataexchange {
+ All = 'dataexchange:*',
+ Create = 'dataexchange:Create*',
+ Delete = 'dataexchange:Delete*',
+ Get = 'dataexchange:Get*',
+ List = 'dataexchange:List*',
+ Update = 'dataexchange:Update*',
  CancelJob = 'dataexchange:CancelJob',
  CreateAsset = 'dataexchange:CreateAsset',
  CreateDataSet = 'dataexchange:CreateDataSet',

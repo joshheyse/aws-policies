@@ -1,5 +1,11 @@
 
 export enum xray {
+ All = 'xray:*',
+ Create = 'xray:Create*',
+ Delete = 'xray:Delete*',
+ Get = 'xray:Get*',
+ Put = 'xray:Put*',
+ Update = 'xray:Update*',
  BatchGetTraces = 'xray:BatchGetTraces',
  CreateGroup = 'xray:CreateGroup',
  CreateSamplingRule = 'xray:CreateSamplingRule',

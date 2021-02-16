@@ -1,5 +1,12 @@
 
 export enum iotevents {
+ All = 'iotevents:*',
+ Batch = 'iotevents:Batch*',
+ Create = 'iotevents:Create*',
+ Delete = 'iotevents:Delete*',
+ Describe = 'iotevents:Describe*',
+ List = 'iotevents:List*',
+ Update = 'iotevents:Update*',
  BatchAcknowledgeAlarm = 'iotevents:BatchAcknowledgeAlarm',
  BatchDisableAlarm = 'iotevents:BatchDisableAlarm',
  BatchEnableAlarm = 'iotevents:BatchEnableAlarm',

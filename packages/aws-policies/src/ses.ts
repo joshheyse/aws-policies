@@ -1,5 +1,16 @@
 
 export enum ses {
+ All = 'ses:*',
+ Create = 'ses:Create*',
+ Delete = 'ses:Delete*',
+ Get = 'ses:Get*',
+ List = 'ses:List*',
+ Put = 'ses:Put*',
+ Send = 'ses:Send*',
+ Update = 'ses:Update*',
+ Describe = 'ses:Describe*',
+ Set = 'ses:Set*',
+ Verify = 'ses:Verify*',
  CreateConfigurationSet = 'ses:CreateConfigurationSet',
  CreateConfigurationSetEventDestination = 'ses:CreateConfigurationSetEventDestination',
  CreateDedicatedIpPool = 'ses:CreateDedicatedIpPool',

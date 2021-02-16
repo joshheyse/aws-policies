@@ -1,5 +1,13 @@
 
 export enum codedeploy {
+ All = 'codedeploy:*',
+ Batch = 'codedeploy:Batch*',
+ Create = 'codedeploy:Create*',
+ Delete = 'codedeploy:Delete*',
+ Get = 'codedeploy:Get*',
+ List = 'codedeploy:List*',
+ Register = 'codedeploy:Register*',
+ Update = 'codedeploy:Update*',
  AddTagsToOnPremisesInstances = 'codedeploy:AddTagsToOnPremisesInstances',
  BatchGetApplicationRevisions = 'codedeploy:BatchGetApplicationRevisions',
  BatchGetApplications = 'codedeploy:BatchGetApplications',

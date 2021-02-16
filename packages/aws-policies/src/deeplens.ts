@@ -1,5 +1,11 @@
 
 export enum deeplens {
+ All = 'deeplens:*',
+ Batch = 'deeplens:Batch*',
+ Create = 'deeplens:Create*',
+ Delete = 'deeplens:Delete*',
+ Get = 'deeplens:Get*',
+ List = 'deeplens:List*',
  AssociateServiceRoleToAccount = 'deeplens:AssociateServiceRoleToAccount',
  BatchGetDevice = 'deeplens:BatchGetDevice',
  BatchGetModel = 'deeplens:BatchGetModel',

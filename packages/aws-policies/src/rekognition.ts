@@ -1,5 +1,15 @@
 
 export enum rekognition {
+ All = 'rekognition:*',
+ Create = 'rekognition:Create*',
+ Delete = 'rekognition:Delete*',
+ Describe = 'rekognition:Describe*',
+ Detect = 'rekognition:Detect*',
+ Get = 'rekognition:Get*',
+ List = 'rekognition:List*',
+ Search = 'rekognition:Search*',
+ Start = 'rekognition:Start*',
+ Stop = 'rekognition:Stop*',
  CompareFaces = 'rekognition:CompareFaces',
  CreateCollection = 'rekognition:CreateCollection',
  CreateProject = 'rekognition:CreateProject',

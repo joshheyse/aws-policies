@@ -1,5 +1,9 @@
 
 export enum resource_groups {
+ All = 'resource-groups:*',
+ Get = 'resource-groups:Get*',
+ List = 'resource-groups:List*',
+ Update = 'resource-groups:Update*',
  CreateGroup = 'resource-groups:CreateGroup',
  DeleteGroup = 'resource-groups:DeleteGroup',
  GetGroup = 'resource-groups:GetGroup',

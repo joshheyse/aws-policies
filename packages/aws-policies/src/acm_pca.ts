@@ -1,5 +1,11 @@
 
 export enum acm_pca {
+ All = 'acm-pca:*',
+ Create = 'acm-pca:Create*',
+ Delete = 'acm-pca:Delete*',
+ Describe = 'acm-pca:Describe*',
+ Get = 'acm-pca:Get*',
+ List = 'acm-pca:List*',
  CreateCertificateAuthority = 'acm-pca:CreateCertificateAuthority',
  CreateCertificateAuthorityAuditReport = 'acm-pca:CreateCertificateAuthorityAuditReport',
  CreatePermission = 'acm-pca:CreatePermission',

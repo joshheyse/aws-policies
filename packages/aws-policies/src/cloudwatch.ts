@@ -1,5 +1,13 @@
 
 export enum cloudwatch {
+ All = 'cloudwatch:*',
+ Delete = 'cloudwatch:Delete*',
+ Describe = 'cloudwatch:Describe*',
+ Disable = 'cloudwatch:Disable*',
+ Enable = 'cloudwatch:Enable*',
+ Get = 'cloudwatch:Get*',
+ List = 'cloudwatch:List*',
+ Put = 'cloudwatch:Put*',
  DeleteAlarms = 'cloudwatch:DeleteAlarms',
  DeleteAnomalyDetector = 'cloudwatch:DeleteAnomalyDetector',
  DeleteDashboards = 'cloudwatch:DeleteDashboards',

@@ -1,5 +1,11 @@
 
 export enum transfer {
+ All = 'transfer:*',
+ Create = 'transfer:Create*',
+ Delete = 'transfer:Delete*',
+ Describe = 'transfer:Describe*',
+ List = 'transfer:List*',
+ Update = 'transfer:Update*',
  CreateServer = 'transfer:CreateServer',
  CreateUser = 'transfer:CreateUser',
  DeleteServer = 'transfer:DeleteServer',

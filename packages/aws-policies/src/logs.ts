@@ -1,5 +1,12 @@
 
 export enum logs {
+ All = 'logs:*',
+ Create = 'logs:Create*',
+ Delete = 'logs:Delete*',
+ Describe = 'logs:Describe*',
+ Get = 'logs:Get*',
+ List = 'logs:List*',
+ Put = 'logs:Put*',
  AssociateKmsKey = 'logs:AssociateKmsKey',
  CancelExportTask = 'logs:CancelExportTask',
  CreateExportTask = 'logs:CreateExportTask',

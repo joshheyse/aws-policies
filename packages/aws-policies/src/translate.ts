@@ -1,5 +1,9 @@
 
 export enum translate {
+ All = 'translate:*',
+ Delete = 'translate:Delete*',
+ Get = 'translate:Get*',
+ List = 'translate:List*',
  CreateParallelData = 'translate:CreateParallelData',
  DeleteParallelData = 'translate:DeleteParallelData',
  DeleteTerminology = 'translate:DeleteTerminology',

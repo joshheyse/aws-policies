@@ -1,5 +1,9 @@
 
 export enum signer {
+ All = 'signer:*',
+ Get = 'signer:Get*',
+ List = 'signer:List*',
+ Revoke = 'signer:Revoke*',
  AddProfilePermission = 'signer:AddProfilePermission',
  CancelSigningProfile = 'signer:CancelSigningProfile',
  DescribeSigningJob = 'signer:DescribeSigningJob',

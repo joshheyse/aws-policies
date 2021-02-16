@@ -1,5 +1,11 @@
 
 export enum mediaconvert {
+ All = 'mediaconvert:*',
+ Create = 'mediaconvert:Create*',
+ Delete = 'mediaconvert:Delete*',
+ Get = 'mediaconvert:Get*',
+ List = 'mediaconvert:List*',
+ Update = 'mediaconvert:Update*',
  AssociateCertificate = 'mediaconvert:AssociateCertificate',
  CancelJob = 'mediaconvert:CancelJob',
  CreateJob = 'mediaconvert:CreateJob',

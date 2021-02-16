@@ -1,5 +1,13 @@
 
 export enum robomaker {
+ All = 'robomaker:*',
+ Batch = 'robomaker:Batch*',
+ Cancel = 'robomaker:Cancel*',
+ Create = 'robomaker:Create*',
+ Delete = 'robomaker:Delete*',
+ Describe = 'robomaker:Describe*',
+ List = 'robomaker:List*',
+ Update = 'robomaker:Update*',
  BatchDeleteWorlds = 'robomaker:BatchDeleteWorlds',
  BatchDescribeSimulationJob = 'robomaker:BatchDescribeSimulationJob',
  CancelDeploymentJob = 'robomaker:CancelDeploymentJob',

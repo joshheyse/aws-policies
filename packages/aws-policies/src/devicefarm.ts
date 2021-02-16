@@ -1,5 +1,12 @@
 
 export enum devicefarm {
+ All = 'devicefarm:*',
+ Create = 'devicefarm:Create*',
+ Delete = 'devicefarm:Delete*',
+ Get = 'devicefarm:Get*',
+ List = 'devicefarm:List*',
+ Stop = 'devicefarm:Stop*',
+ Update = 'devicefarm:Update*',
  CreateDevicePool = 'devicefarm:CreateDevicePool',
  CreateInstanceProfile = 'devicefarm:CreateInstanceProfile',
  CreateNetworkProfile = 'devicefarm:CreateNetworkProfile',

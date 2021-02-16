@@ -1,5 +1,13 @@
 
 export enum workdocs {
+ All = 'workdocs:*',
+ Add = 'workdocs:Add*',
+ Create = 'workdocs:Create*',
+ Delete = 'workdocs:Delete*',
+ Describe = 'workdocs:Describe*',
+ Get = 'workdocs:Get*',
+ Remove = 'workdocs:Remove*',
+ Update = 'workdocs:Update*',
  AbortDocumentVersionUpload = 'workdocs:AbortDocumentVersionUpload',
  ActivateUser = 'workdocs:ActivateUser',
  AddResourcePermissions = 'workdocs:AddResourcePermissions',

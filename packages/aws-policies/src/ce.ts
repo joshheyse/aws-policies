@@ -1,5 +1,11 @@
 
 export enum ce {
+ All = 'ce:*',
+ Create = 'ce:Create*',
+ Delete = 'ce:Delete*',
+ Describe = 'ce:Describe*',
+ Get = 'ce:Get*',
+ Update = 'ce:Update*',
  CreateAnomalyMonitor = 'ce:CreateAnomalyMonitor',
  CreateAnomalySubscription = 'ce:CreateAnomalySubscription',
  CreateCostCategoryDefinition = 'ce:CreateCostCategoryDefinition',

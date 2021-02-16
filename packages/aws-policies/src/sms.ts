@@ -1,5 +1,14 @@
 
 export enum sms {
+ All = 'sms:*',
+ Create = 'sms:Create*',
+ Delete = 'sms:Delete*',
+ Generate = 'sms:Generate*',
+ Get = 'sms:Get*',
+ Import = 'sms:Import*',
+ Put = 'sms:Put*',
+ Start = 'sms:Start*',
+ Update = 'sms:Update*',
  CreateApp = 'sms:CreateApp',
  CreateReplicationJob = 'sms:CreateReplicationJob',
  DeleteApp = 'sms:DeleteApp',

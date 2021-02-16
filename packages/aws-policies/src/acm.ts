@@ -1,5 +1,7 @@
 
 export enum acm {
+ All = 'acm:*',
+ List = 'acm:List*',
  AddTagsToCertificate = 'acm:AddTagsToCertificate',
  DeleteCertificate = 'acm:DeleteCertificate',
  DescribeCertificate = 'acm:DescribeCertificate',

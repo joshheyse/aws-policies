@@ -1,5 +1,11 @@
 
 export enum datasync {
+ All = 'datasync:*',
+ Create = 'datasync:Create*',
+ Delete = 'datasync:Delete*',
+ Describe = 'datasync:Describe*',
+ List = 'datasync:List*',
+ Update = 'datasync:Update*',
  CancelTaskExecution = 'datasync:CancelTaskExecution',
  CreateAgent = 'datasync:CreateAgent',
  CreateLocationEfs = 'datasync:CreateLocationEfs',

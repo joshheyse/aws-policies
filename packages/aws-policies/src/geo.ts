@@ -1,5 +1,14 @@
 
 export enum geo {
+ All = 'geo:*',
+ Batch = 'geo:Batch*',
+ Create = 'geo:Create*',
+ Delete = 'geo:Delete*',
+ Describe = 'geo:Describe*',
+ Get = 'geo:Get*',
+ List = 'geo:List*',
+ Search = 'geo:Search*',
+ Update = 'geo:Update*',
  AssociateTrackerConsumer = 'geo:AssociateTrackerConsumer',
  BatchDeleteGeofence = 'geo:BatchDeleteGeofence',
  BatchEvaluateGeofences = 'geo:BatchEvaluateGeofences',

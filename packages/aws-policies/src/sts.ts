@@ -1,5 +1,8 @@
 
 export enum sts {
+ All = 'sts:*',
+ Assume = 'sts:Assume*',
+ Get = 'sts:Get*',
  AssumeRole = 'sts:AssumeRole',
  AssumeRoleWithSAML = 'sts:AssumeRoleWithSAML',
  AssumeRoleWithWebIdentity = 'sts:AssumeRoleWithWebIdentity',

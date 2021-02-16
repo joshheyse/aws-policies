@@ -1,5 +1,7 @@
 
 export enum synthetics {
+ All = 'synthetics:*',
+ Describe = 'synthetics:Describe*',
  CreateCanary = 'synthetics:CreateCanary',
  DeleteCanary = 'synthetics:DeleteCanary',
  DescribeCanaries = 'synthetics:DescribeCanaries',

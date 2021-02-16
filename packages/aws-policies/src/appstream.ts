@@ -1,5 +1,14 @@
 
 export enum appstream {
+ All = 'appstream:*',
+ Batch = 'appstream:Batch*',
+ Create = 'appstream:Create*',
+ Delete = 'appstream:Delete*',
+ Describe = 'appstream:Describe*',
+ List = 'appstream:List*',
+ Start = 'appstream:Start*',
+ Stop = 'appstream:Stop*',
+ Update = 'appstream:Update*',
  AssociateFleet = 'appstream:AssociateFleet',
  BatchAssociateUserStack = 'appstream:BatchAssociateUserStack',
  BatchDisassociateUserStack = 'appstream:BatchDisassociateUserStack',

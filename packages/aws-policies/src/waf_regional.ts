@@ -1,5 +1,12 @@
 
 export enum waf_regional {
+ All = 'waf-regional:*',
+ Create = 'waf-regional:Create*',
+ Delete = 'waf-regional:Delete*',
+ Get = 'waf-regional:Get*',
+ List = 'waf-regional:List*',
+ Put = 'waf-regional:Put*',
+ Update = 'waf-regional:Update*',
  AssociateWebACL = 'waf-regional:AssociateWebACL',
  CreateByteMatchSet = 'waf-regional:CreateByteMatchSet',
  CreateGeoMatchSet = 'waf-regional:CreateGeoMatchSet',

@@ -1,5 +1,15 @@
 
 export enum elasticloadbalancing {
+ All = 'elasticloadbalancing:*',
+ Add = 'elasticloadbalancing:Add*',
+ Create = 'elasticloadbalancing:Create*',
+ Delete = 'elasticloadbalancing:Delete*',
+ Deregister = 'elasticloadbalancing:Deregister*',
+ Describe = 'elasticloadbalancing:Describe*',
+ Modify = 'elasticloadbalancing:Modify*',
+ Register = 'elasticloadbalancing:Register*',
+ Remove = 'elasticloadbalancing:Remove*',
+ Set = 'elasticloadbalancing:Set*',
  AddListenerCertificates = 'elasticloadbalancing:AddListenerCertificates',
  AddTags = 'elasticloadbalancing:AddTags',
  CreateListener = 'elasticloadbalancing:CreateListener',

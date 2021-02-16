@@ -1,5 +1,11 @@
 
 export enum worklink {
+ All = 'worklink:*',
+ Associate = 'worklink:Associate*',
+ Describe = 'worklink:Describe*',
+ Disassociate = 'worklink:Disassociate*',
+ List = 'worklink:List*',
+ Update = 'worklink:Update*',
  AssociateDomain = 'worklink:AssociateDomain',
  AssociateWebsiteAuthorizationProvider = 'worklink:AssociateWebsiteAuthorizationProvider',
  AssociateWebsiteCertificateAuthority = 'worklink:AssociateWebsiteCertificateAuthority',

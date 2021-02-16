@@ -1,5 +1,9 @@
 
 export enum qldb {
+ All = 'qldb:*',
+ Describe = 'qldb:Describe*',
+ Get = 'qldb:Get*',
+ List = 'qldb:List*',
  CancelJournalKinesisStream = 'qldb:CancelJournalKinesisStream',
  CreateLedger = 'qldb:CreateLedger',
  DeleteLedger = 'qldb:DeleteLedger',

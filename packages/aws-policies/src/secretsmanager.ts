@@ -1,5 +1,11 @@
 
 export enum secretsmanager {
+ All = 'secretsmanager:*',
+ Delete = 'secretsmanager:Delete*',
+ Get = 'secretsmanager:Get*',
+ List = 'secretsmanager:List*',
+ Put = 'secretsmanager:Put*',
+ Update = 'secretsmanager:Update*',
  CancelRotateSecret = 'secretsmanager:CancelRotateSecret',
  CreateSecret = 'secretsmanager:CreateSecret',
  DeleteResourcePolicy = 'secretsmanager:DeleteResourcePolicy',

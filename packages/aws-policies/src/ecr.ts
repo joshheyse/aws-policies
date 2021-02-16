@@ -1,5 +1,13 @@
 
 export enum ecr {
+ All = 'ecr:*',
+ Batch = 'ecr:Batch*',
+ Delete = 'ecr:Delete*',
+ Describe = 'ecr:Describe*',
+ Get = 'ecr:Get*',
+ List = 'ecr:List*',
+ Put = 'ecr:Put*',
+ Start = 'ecr:Start*',
  BatchCheckLayerAvailability = 'ecr:BatchCheckLayerAvailability',
  BatchDeleteImage = 'ecr:BatchDeleteImage',
  BatchGetImage = 'ecr:BatchGetImage',

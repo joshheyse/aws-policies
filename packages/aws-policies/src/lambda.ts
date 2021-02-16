@@ -1,5 +1,16 @@
 
 export enum lambda {
+ All = 'lambda:*',
+ Add = 'lambda:Add*',
+ Create = 'lambda:Create*',
+ Delete = 'lambda:Delete*',
+ Get = 'lambda:Get*',
+ Invoke = 'lambda:Invoke*',
+ List = 'lambda:List*',
+ Publish = 'lambda:Publish*',
+ Put = 'lambda:Put*',
+ Remove = 'lambda:Remove*',
+ Update = 'lambda:Update*',
  AddLayerVersionPermission = 'lambda:AddLayerVersionPermission',
  AddPermission = 'lambda:AddPermission',
  CreateAlias = 'lambda:CreateAlias',

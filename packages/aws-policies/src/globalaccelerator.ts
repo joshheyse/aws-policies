@@ -1,5 +1,11 @@
 
 export enum globalaccelerator {
+ All = 'globalaccelerator:*',
+ Create = 'globalaccelerator:Create*',
+ Delete = 'globalaccelerator:Delete*',
+ Describe = 'globalaccelerator:Describe*',
+ List = 'globalaccelerator:List*',
+ Update = 'globalaccelerator:Update*',
  AddCustomRoutingEndpoints = 'globalaccelerator:AddCustomRoutingEndpoints',
  AdvertiseByoipCidr = 'globalaccelerator:AdvertiseByoipCidr',
  AllowCustomRoutingTraffic = 'globalaccelerator:AllowCustomRoutingTraffic',

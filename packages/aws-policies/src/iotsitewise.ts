@@ -1,5 +1,13 @@
 
 export enum iotsitewise {
+ All = 'iotsitewise:*',
+ Batch = 'iotsitewise:Batch*',
+ Create = 'iotsitewise:Create*',
+ Delete = 'iotsitewise:Delete*',
+ Describe = 'iotsitewise:Describe*',
+ Get = 'iotsitewise:Get*',
+ List = 'iotsitewise:List*',
+ Update = 'iotsitewise:Update*',
  AssociateAssets = 'iotsitewise:AssociateAssets',
  BatchAssociateProjectAssets = 'iotsitewise:BatchAssociateProjectAssets',
  BatchDisassociateProjectAssets = 'iotsitewise:BatchDisassociateProjectAssets',

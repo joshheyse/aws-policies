@@ -1,5 +1,14 @@
 
 export enum medialive {
+ All = 'medialive:*',
+ Batch = 'medialive:Batch*',
+ Create = 'medialive:Create*',
+ Delete = 'medialive:Delete*',
+ Describe = 'medialive:Describe*',
+ List = 'medialive:List*',
+ Start = 'medialive:Start*',
+ Stop = 'medialive:Stop*',
+ Update = 'medialive:Update*',
  AcceptInputDeviceTransfer = 'medialive:AcceptInputDeviceTransfer',
  BatchDelete = 'medialive:BatchDelete',
  BatchStart = 'medialive:BatchStart',

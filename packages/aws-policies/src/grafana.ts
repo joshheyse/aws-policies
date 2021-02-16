@@ -1,5 +1,8 @@
 
 export enum grafana {
+ All = 'grafana:*',
+ List = 'grafana:List*',
+ Update = 'grafana:Update*',
  CreateWorkspace = 'grafana:CreateWorkspace',
  DeleteWorkspace = 'grafana:DeleteWorkspace',
  DescribeWorkspace = 'grafana:DescribeWorkspace',

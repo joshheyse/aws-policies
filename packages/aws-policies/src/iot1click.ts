@@ -1,5 +1,12 @@
 
 export enum iot1click {
+ All = 'iot1click:*',
+ Create = 'iot1click:Create*',
+ Delete = 'iot1click:Delete*',
+ Describe = 'iot1click:Describe*',
+ Get = 'iot1click:Get*',
+ List = 'iot1click:List*',
+ Update = 'iot1click:Update*',
  AssociateDeviceWithPlacement = 'iot1click:AssociateDeviceWithPlacement',
  ClaimDevicesByClaimCode = 'iot1click:ClaimDevicesByClaimCode',
  CreatePlacement = 'iot1click:CreatePlacement',

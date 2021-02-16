@@ -1,5 +1,8 @@
 
 export enum codestar_notifications {
+ All = 'codestar-notifications:*',
+ Delete = 'codestar-notifications:Delete*',
+ List = 'codestar-notifications:List*',
  CreateNotificationRule = 'codestar-notifications:CreateNotificationRule',
  DeleteNotificationRule = 'codestar-notifications:DeleteNotificationRule',
  DeleteTarget = 'codestar-notifications:DeleteTarget',

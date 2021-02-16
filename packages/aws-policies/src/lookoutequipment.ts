@@ -1,5 +1,11 @@
 
 export enum lookoutequipment {
+ All = 'lookoutequipment:*',
+ Create = 'lookoutequipment:Create*',
+ Delete = 'lookoutequipment:Delete*',
+ Describe = 'lookoutequipment:Describe*',
+ List = 'lookoutequipment:List*',
+ Start = 'lookoutequipment:Start*',
  CreateDataset = 'lookoutequipment:CreateDataset',
  CreateInferenceScheduler = 'lookoutequipment:CreateInferenceScheduler',
  CreateModel = 'lookoutequipment:CreateModel',

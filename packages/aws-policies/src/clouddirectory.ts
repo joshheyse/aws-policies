@@ -1,5 +1,14 @@
 
 export enum clouddirectory {
+ All = 'clouddirectory:*',
+ Attach = 'clouddirectory:Attach*',
+ Batch = 'clouddirectory:Batch*',
+ Create = 'clouddirectory:Create*',
+ Delete = 'clouddirectory:Delete*',
+ Detach = 'clouddirectory:Detach*',
+ Get = 'clouddirectory:Get*',
+ List = 'clouddirectory:List*',
+ Update = 'clouddirectory:Update*',
  AddFacetToObject = 'clouddirectory:AddFacetToObject',
  ApplySchema = 'clouddirectory:ApplySchema',
  AttachObject = 'clouddirectory:AttachObject',

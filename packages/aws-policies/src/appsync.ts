@@ -1,5 +1,11 @@
 
 export enum appsync {
+ All = 'appsync:*',
+ Create = 'appsync:Create*',
+ Delete = 'appsync:Delete*',
+ Get = 'appsync:Get*',
+ List = 'appsync:List*',
+ Update = 'appsync:Update*',
  CreateApiKey = 'appsync:CreateApiKey',
  CreateDataSource = 'appsync:CreateDataSource',
  CreateFunction = 'appsync:CreateFunction',

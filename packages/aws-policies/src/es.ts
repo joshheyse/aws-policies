@@ -1,5 +1,12 @@
 
 export enum es {
+ All = 'es:*',
+ Create = 'es:Create*',
+ Delete = 'es:Delete*',
+ Describe = 'es:Describe*',
+ E = 'es:E*',
+ Get = 'es:Get*',
+ List = 'es:List*',
  AcceptInboundCrossClusterSearchConnection = 'es:AcceptInboundCrossClusterSearchConnection',
  AddTags = 'es:AddTags',
  CreateElasticsearchDomain = 'es:CreateElasticsearchDomain',

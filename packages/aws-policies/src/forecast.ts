@@ -1,5 +1,10 @@
 
 export enum forecast {
+ All = 'forecast:*',
+ Create = 'forecast:Create*',
+ Delete = 'forecast:Delete*',
+ Describe = 'forecast:Describe*',
+ List = 'forecast:List*',
  CreateDataset = 'forecast:CreateDataset',
  CreateDatasetGroup = 'forecast:CreateDatasetGroup',
  CreateDatasetImportJob = 'forecast:CreateDatasetImportJob',

@@ -1,5 +1,9 @@
 
 export enum support {
+ All = 'support:*',
+ Add = 'support:Add*',
+ Describe = 'support:Describe*',
+ Initiate = 'support:Initiate*',
  AddAttachmentsToSet = 'support:AddAttachmentsToSet',
  AddCommunicationToCase = 'support:AddCommunicationToCase',
  CreateCase = 'support:CreateCase',

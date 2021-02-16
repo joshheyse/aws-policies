@@ -1,5 +1,11 @@
 
 export enum ecr_public {
+ All = 'ecr-public:*',
+ Batch = 'ecr-public:Batch*',
+ Delete = 'ecr-public:Delete*',
+ Describe = 'ecr-public:Describe*',
+ Get = 'ecr-public:Get*',
+ Put = 'ecr-public:Put*',
  BatchCheckLayerAvailability = 'ecr-public:BatchCheckLayerAvailability',
  BatchDeleteImage = 'ecr-public:BatchDeleteImage',
  CompleteLayerUpload = 'ecr-public:CompleteLayerUpload',

@@ -1,5 +1,13 @@
 
 export enum states {
+ All = 'states:*',
+ Create = 'states:Create*',
+ Delete = 'states:Delete*',
+ Describe = 'states:Describe*',
+ Get = 'states:Get*',
+ List = 'states:List*',
+ Send = 'states:Send*',
+ Start = 'states:Start*',
  CreateActivity = 'states:CreateActivity',
  CreateStateMachine = 'states:CreateStateMachine',
  DeleteActivity = 'states:DeleteActivity',

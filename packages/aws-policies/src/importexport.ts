@@ -1,5 +1,7 @@
 
 export enum importexport {
+ All = 'importexport:*',
+ Get = 'importexport:Get*',
  CancelJob = 'importexport:CancelJob',
  CreateJob = 'importexport:CreateJob',
  GetShippingLabel = 'importexport:GetShippingLabel',

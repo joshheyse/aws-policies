@@ -1,5 +1,11 @@
 
 export enum iotanalytics {
+ All = 'iotanalytics:*',
+ Create = 'iotanalytics:Create*',
+ Delete = 'iotanalytics:Delete*',
+ Describe = 'iotanalytics:Describe*',
+ List = 'iotanalytics:List*',
+ Update = 'iotanalytics:Update*',
  BatchPutMessage = 'iotanalytics:BatchPutMessage',
  CancelPipelineReprocessing = 'iotanalytics:CancelPipelineReprocessing',
  CreateChannel = 'iotanalytics:CreateChannel',

@@ -1,5 +1,11 @@
 
 export enum dms {
+ All = 'dms:*',
+ Create = 'dms:Create*',
+ Delete = 'dms:Delete*',
+ Describe = 'dms:Describe*',
+ Modify = 'dms:Modify*',
+ Start = 'dms:Start*',
  AddTagsToResource = 'dms:AddTagsToResource',
  ApplyPendingMaintenanceAction = 'dms:ApplyPendingMaintenanceAction',
  CancelReplicationTaskAssessmentRun = 'dms:CancelReplicationTaskAssessmentRun',

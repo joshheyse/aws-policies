@@ -1,5 +1,17 @@
 
 export enum servicecatalog {
+ All = 'servicecatalog:*',
+ Associate = 'servicecatalog:Associate*',
+ Batch = 'servicecatalog:Batch*',
+ Create = 'servicecatalog:Create*',
+ Delete = 'servicecatalog:Delete*',
+ Describe = 'servicecatalog:Describe*',
+ Disassociate = 'servicecatalog:Disassociate*',
+ Execute = 'servicecatalog:Execute*',
+ Get = 'servicecatalog:Get*',
+ List = 'servicecatalog:List*',
+ Search = 'servicecatalog:Search*',
+ Update = 'servicecatalog:Update*',
  AcceptPortfolioShare = 'servicecatalog:AcceptPortfolioShare',
  AssociateAttributeGroup = 'servicecatalog:AssociateAttributeGroup',
  AssociateBudgetWithResource = 'servicecatalog:AssociateBudgetWithResource',

@@ -1,5 +1,16 @@
 
 export enum connect {
+ All = 'connect:*',
+ Associate = 'connect:Associate*',
+ Create = 'connect:Create*',
+ Delete = 'connect:Delete*',
+ Describe = 'connect:Describe*',
+ Disassociate = 'connect:Disassociate*',
+ Get = 'connect:Get*',
+ List = 'connect:List*',
+ Start = 'connect:Start*',
+ Stop = 'connect:Stop*',
+ Update = 'connect:Update*',
  AssociateApprovedOrigin = 'connect:AssociateApprovedOrigin',
  AssociateInstanceStorageConfig = 'connect:AssociateInstanceStorageConfig',
  AssociateLambdaFunction = 'connect:AssociateLambdaFunction',

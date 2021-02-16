@@ -1,5 +1,17 @@
 
 export enum a4b {
+ All = 'a4b:*',
+ Associate = 'a4b:Associate*',
+ Create = 'a4b:Create*',
+ Delete = 'a4b:Delete*',
+ Disassociate = 'a4b:Disassociate*',
+ Get = 'a4b:Get*',
+ List = 'a4b:List*',
+ Put = 'a4b:Put*',
+ Register = 'a4b:Register*',
+ Search = 'a4b:Search*',
+ Start = 'a4b:Start*',
+ Update = 'a4b:Update*',
  ApproveSkill = 'a4b:ApproveSkill',
  AssociateContactWithAddressBook = 'a4b:AssociateContactWithAddressBook',
  AssociateDeviceWithRoom = 'a4b:AssociateDeviceWithRoom',

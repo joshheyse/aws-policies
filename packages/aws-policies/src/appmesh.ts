@@ -1,5 +1,11 @@
 
 export enum appmesh {
+ All = 'appmesh:*',
+ Create = 'appmesh:Create*',
+ Delete = 'appmesh:Delete*',
+ Describe = 'appmesh:Describe*',
+ List = 'appmesh:List*',
+ Update = 'appmesh:Update*',
  CreateGatewayRoute = 'appmesh:CreateGatewayRoute',
  CreateMesh = 'appmesh:CreateMesh',
  CreateRoute = 'appmesh:CreateRoute',

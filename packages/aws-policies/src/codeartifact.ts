@@ -1,5 +1,14 @@
 
 export enum codeartifact {
+ All = 'codeartifact:*',
+ Associate = 'codeartifact:Associate*',
+ Create = 'codeartifact:Create*',
+ Delete = 'codeartifact:Delete*',
+ Describe = 'codeartifact:Describe*',
+ Get = 'codeartifact:Get*',
+ List = 'codeartifact:List*',
+ Put = 'codeartifact:Put*',
+ Update = 'codeartifact:Update*',
  AssociateExternalConnection = 'codeartifact:AssociateExternalConnection',
  AssociateWithDownstreamRepository = 'codeartifact:AssociateWithDownstreamRepository',
  CopyPackageVersions = 'codeartifact:CopyPackageVersions',

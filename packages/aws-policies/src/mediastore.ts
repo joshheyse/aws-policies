@@ -1,5 +1,11 @@
 
 export enum mediastore {
+ All = 'mediastore:*',
+ Delete = 'mediastore:Delete*',
+ Describe = 'mediastore:Describe*',
+ Get = 'mediastore:Get*',
+ List = 'mediastore:List*',
+ Put = 'mediastore:Put*',
  CreateContainer = 'mediastore:CreateContainer',
  DeleteContainer = 'mediastore:DeleteContainer',
  DeleteContainerPolicy = 'mediastore:DeleteContainerPolicy',

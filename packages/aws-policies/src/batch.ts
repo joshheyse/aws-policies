@@ -1,5 +1,11 @@
 
 export enum batch {
+ All = 'batch:*',
+ Create = 'batch:Create*',
+ Delete = 'batch:Delete*',
+ Describe = 'batch:Describe*',
+ List = 'batch:List*',
+ Update = 'batch:Update*',
  CancelJob = 'batch:CancelJob',
  CreateComputeEnvironment = 'batch:CreateComputeEnvironment',
  CreateJobQueue = 'batch:CreateJobQueue',

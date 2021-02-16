@@ -1,5 +1,14 @@
 
 export enum autoscaling {
+ All = 'autoscaling:*',
+ Attach = 'autoscaling:Attach*',
+ Batch = 'autoscaling:Batch*',
+ Create = 'autoscaling:Create*',
+ Delete = 'autoscaling:Delete*',
+ Describe = 'autoscaling:Describe*',
+ Detach = 'autoscaling:Detach*',
+ Put = 'autoscaling:Put*',
+ Set = 'autoscaling:Set*',
  AttachInstances = 'autoscaling:AttachInstances',
  AttachLoadBalancerTargetGroups = 'autoscaling:AttachLoadBalancerTargetGroups',
  AttachLoadBalancers = 'autoscaling:AttachLoadBalancers',

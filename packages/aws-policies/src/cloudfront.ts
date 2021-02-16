@@ -1,5 +1,11 @@
 
 export enum cloudfront {
+ All = 'cloudfront:*',
+ Create = 'cloudfront:Create*',
+ Delete = 'cloudfront:Delete*',
+ Get = 'cloudfront:Get*',
+ List = 'cloudfront:List*',
+ Update = 'cloudfront:Update*',
  CreateCachePolicy = 'cloudfront:CreateCachePolicy',
  CreateCloudFrontOriginAccessIdentity = 'cloudfront:CreateCloudFrontOriginAccessIdentity',
  CreateDistribution = 'cloudfront:CreateDistribution',

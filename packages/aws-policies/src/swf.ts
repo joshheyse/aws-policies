@@ -1,5 +1,18 @@
 
 export enum swf {
+ All = 'swf:*',
+ Cancel = 'swf:Cancel*',
+ Count = 'swf:Count*',
+ Deprecate = 'swf:Deprecate*',
+ Describe = 'swf:Describe*',
+ List = 'swf:List*',
+ Poll = 'swf:Poll*',
+ Record = 'swf:Record*',
+ Register = 'swf:Register*',
+ Request = 'swf:Request*',
+ Respond = 'swf:Respond*',
+ Signal = 'swf:Signal*',
+ Start = 'swf:Start*',
  CancelTimer = 'swf:CancelTimer',
  CancelWorkflowExecution = 'swf:CancelWorkflowExecution',
  CompleteWorkflowExecution = 'swf:CompleteWorkflowExecution',

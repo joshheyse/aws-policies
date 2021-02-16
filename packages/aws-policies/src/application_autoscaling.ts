@@ -1,5 +1,9 @@
 
 export enum application_autoscaling {
+ All = 'application-autoscaling:*',
+ Delete = 'application-autoscaling:Delete*',
+ Describe = 'application-autoscaling:Describe*',
+ Put = 'application-autoscaling:Put*',
  DeleteScalingPolicy = 'application-autoscaling:DeleteScalingPolicy',
  DeleteScheduledAction = 'application-autoscaling:DeleteScheduledAction',
  DeregisterScalableTarget = 'application-autoscaling:DeregisterScalableTarget',

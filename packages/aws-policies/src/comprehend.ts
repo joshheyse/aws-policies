@@ -1,5 +1,14 @@
 
 export enum comprehend {
+ All = 'comprehend:*',
+ Batch = 'comprehend:Batch*',
+ Create = 'comprehend:Create*',
+ Delete = 'comprehend:Delete*',
+ Describe = 'comprehend:Describe*',
+ Detect = 'comprehend:Detect*',
+ List = 'comprehend:List*',
+ Start = 'comprehend:Start*',
+ Stop = 'comprehend:Stop*',
  BatchDetectDominantLanguage = 'comprehend:BatchDetectDominantLanguage',
  BatchDetectEntities = 'comprehend:BatchDetectEntities',
  BatchDetectKeyPhrases = 'comprehend:BatchDetectKeyPhrases',

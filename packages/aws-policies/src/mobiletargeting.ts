@@ -1,5 +1,13 @@
 
 export enum mobiletargeting {
+ All = 'mobiletargeting:*',
+ Create = 'mobiletargeting:Create*',
+ Delete = 'mobiletargeting:Delete*',
+ Get = 'mobiletargeting:Get*',
+ List = 'mobiletargeting:List*',
+ Put = 'mobiletargeting:Put*',
+ Send = 'mobiletargeting:Send*',
+ Update = 'mobiletargeting:Update*',
  CreateApp = 'mobiletargeting:CreateApp',
  CreateCampaign = 'mobiletargeting:CreateCampaign',
  CreateEmailTemplate = 'mobiletargeting:CreateEmailTemplate',

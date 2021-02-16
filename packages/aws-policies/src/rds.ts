@@ -1,5 +1,18 @@
 
 export enum rds {
+ All = 'rds:*',
+ Add = 'rds:Add*',
+ Copy = 'rds:Copy*',
+ Create = 'rds:Create*',
+ Delete = 'rds:Delete*',
+ Describe = 'rds:Describe*',
+ Modify = 'rds:Modify*',
+ Promote = 'rds:Promote*',
+ Remove = 'rds:Remove*',
+ Reset = 'rds:Reset*',
+ Restore = 'rds:Restore*',
+ Start = 'rds:Start*',
+ Stop = 'rds:Stop*',
  AddRoleToDBCluster = 'rds:AddRoleToDBCluster',
  AddRoleToDBInstance = 'rds:AddRoleToDBInstance',
  AddSourceIdentifierToSubscription = 'rds:AddSourceIdentifierToSubscription',

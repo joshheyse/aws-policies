@@ -1,5 +1,9 @@
 
 export enum lakeformation {
+ All = 'lakeformation:*',
+ Batch = 'lakeformation:Batch*',
+ Get = 'lakeformation:Get*',
+ List = 'lakeformation:List*',
  BatchGrantPermissions = 'lakeformation:BatchGrantPermissions',
  BatchRevokePermissions = 'lakeformation:BatchRevokePermissions',
  DeregisterResource = 'lakeformation:DeregisterResource',

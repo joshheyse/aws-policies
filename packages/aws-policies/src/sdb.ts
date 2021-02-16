@@ -1,5 +1,8 @@
 
 export enum sdb {
+ All = 'sdb:*',
+ Batch = 'sdb:Batch*',
+ Delete = 'sdb:Delete*',
  BatchDeleteAttributes = 'sdb:BatchDeleteAttributes',
  BatchPutAttributes = 'sdb:BatchPutAttributes',
  CreateDomain = 'sdb:CreateDomain',

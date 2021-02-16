@@ -1,5 +1,11 @@
 
 export enum elasticfilesystem {
+ All = 'elasticfilesystem:*',
+ Client = 'elasticfilesystem:Client*',
+ Create = 'elasticfilesystem:Create*',
+ Delete = 'elasticfilesystem:Delete*',
+ Describe = 'elasticfilesystem:Describe*',
+ Put = 'elasticfilesystem:Put*',
  Backup = 'elasticfilesystem:Backup',
  ClientMount = 'elasticfilesystem:ClientMount',
  ClientRootAccess = 'elasticfilesystem:ClientRootAccess',

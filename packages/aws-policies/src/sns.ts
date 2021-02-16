@@ -1,5 +1,11 @@
 
 export enum sns {
+ All = 'sns:*',
+ Create = 'sns:Create*',
+ Delete = 'sns:Delete*',
+ Get = 'sns:Get*',
+ List = 'sns:List*',
+ Set = 'sns:Set*',
  AddPermission = 'sns:AddPermission',
  CheckIfPhoneNumberIsOptedOut = 'sns:CheckIfPhoneNumberIsOptedOut',
  ConfirmSubscription = 'sns:ConfirmSubscription',

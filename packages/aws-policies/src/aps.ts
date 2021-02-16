@@ -1,5 +1,7 @@
 
 export enum aps {
+ All = 'aps:*',
+ Get = 'aps:Get*',
  CreateWorkspace = 'aps:CreateWorkspace',
  DeleteWorkspace = 'aps:DeleteWorkspace',
  DescribeWorkspace = 'aps:DescribeWorkspace',

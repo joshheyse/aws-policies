@@ -1,5 +1,11 @@
 
 export enum iotfleethub {
+ All = 'iotfleethub:*',
+ Create = 'iotfleethub:Create*',
+ Delete = 'iotfleethub:Delete*',
+ Describe = 'iotfleethub:Describe*',
+ List = 'iotfleethub:List*',
+ Update = 'iotfleethub:Update*',
  CreateApplication = 'iotfleethub:CreateApplication',
  CreateDashboard = 'iotfleethub:CreateDashboard',
  DeleteApplication = 'iotfleethub:DeleteApplication',

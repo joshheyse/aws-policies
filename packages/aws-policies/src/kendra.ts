@@ -1,5 +1,12 @@
 
 export enum kendra {
+ All = 'kendra:*',
+ Batch = 'kendra:Batch*',
+ Create = 'kendra:Create*',
+ Delete = 'kendra:Delete*',
+ Describe = 'kendra:Describe*',
+ List = 'kendra:List*',
+ Update = 'kendra:Update*',
  BatchDeleteDocument = 'kendra:BatchDeleteDocument',
  BatchPutDocument = 'kendra:BatchPutDocument',
  CreateDataSource = 'kendra:CreateDataSource',

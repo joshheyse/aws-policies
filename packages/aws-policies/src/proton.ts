@@ -1,5 +1,11 @@
 
 export enum proton {
+ All = 'proton:*',
+ Create = 'proton:Create*',
+ Delete = 'proton:Delete*',
+ Get = 'proton:Get*',
+ List = 'proton:List*',
+ Update = 'proton:Update*',
  CreateEnvironment = 'proton:CreateEnvironment',
  CreateEnvironmentTemplate = 'proton:CreateEnvironmentTemplate',
  CreateEnvironmentTemplateMajorVersion = 'proton:CreateEnvironmentTemplateMajorVersion',

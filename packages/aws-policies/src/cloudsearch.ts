@@ -1,5 +1,11 @@
 
 export enum cloudsearch {
+ All = 'cloudsearch:*',
+ Define = 'cloudsearch:Define*',
+ Delete = 'cloudsearch:Delete*',
+ Describe = 'cloudsearch:Describe*',
+ List = 'cloudsearch:List*',
+ Update = 'cloudsearch:Update*',
  AddTags = 'cloudsearch:AddTags',
  BuildSuggesters = 'cloudsearch:BuildSuggesters',
  CreateDomain = 'cloudsearch:CreateDomain',

@@ -1,5 +1,14 @@
 
 export enum gamelift {
+ All = 'gamelift:*',
+ Create = 'gamelift:Create*',
+ Delete = 'gamelift:Delete*',
+ Describe = 'gamelift:Describe*',
+ Get = 'gamelift:Get*',
+ List = 'gamelift:List*',
+ Start = 'gamelift:Start*',
+ Stop = 'gamelift:Stop*',
+ Update = 'gamelift:Update*',
  AcceptMatch = 'gamelift:AcceptMatch',
  ClaimGameServer = 'gamelift:ClaimGameServer',
  CreateAlias = 'gamelift:CreateAlias',

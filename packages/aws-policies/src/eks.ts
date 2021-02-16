@@ -1,5 +1,11 @@
 
 export enum eks {
+ All = 'eks:*',
+ Create = 'eks:Create*',
+ Delete = 'eks:Delete*',
+ Describe = 'eks:Describe*',
+ List = 'eks:List*',
+ Update = 'eks:Update*',
  AccessKubernetesApi = 'eks:AccessKubernetesApi',
  CreateAddon = 'eks:CreateAddon',
  CreateCluster = 'eks:CreateCluster',

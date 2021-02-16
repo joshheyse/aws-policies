@@ -1,5 +1,7 @@
 
 export enum activate {
+ All = 'activate:*',
+ Get = 'activate:Get*',
  CreateForm = 'activate:CreateForm',
  GetAccountContact = 'activate:GetAccountContact',
  GetContentInfo = 'activate:GetContentInfo',

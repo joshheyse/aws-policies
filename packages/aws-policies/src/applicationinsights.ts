@@ -1,5 +1,11 @@
 
 export enum applicationinsights {
+ All = 'applicationinsights:*',
+ Create = 'applicationinsights:Create*',
+ Delete = 'applicationinsights:Delete*',
+ Describe = 'applicationinsights:Describe*',
+ List = 'applicationinsights:List*',
+ Update = 'applicationinsights:Update*',
  CreateApplication = 'applicationinsights:CreateApplication',
  CreateComponent = 'applicationinsights:CreateComponent',
  CreateLogPattern = 'applicationinsights:CreateLogPattern',

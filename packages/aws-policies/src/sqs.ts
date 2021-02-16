@@ -1,5 +1,11 @@
 
 export enum sqs {
+ All = 'sqs:*',
+ Change = 'sqs:Change*',
+ Delete = 'sqs:Delete*',
+ Get = 'sqs:Get*',
+ List = 'sqs:List*',
+ Send = 'sqs:Send*',
  AddPermission = 'sqs:AddPermission',
  ChangeMessageVisibility = 'sqs:ChangeMessageVisibility',
  ChangeMessageVisibilityBatch = 'sqs:ChangeMessageVisibilityBatch',

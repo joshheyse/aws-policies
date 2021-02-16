@@ -1,5 +1,12 @@
 
 export enum license_manager {
+ All = 'license-manager:*',
+ Checkout = 'license-manager:Checkout*',
+ Create = 'license-manager:Create*',
+ Delete = 'license-manager:Delete*',
+ Get = 'license-manager:Get*',
+ List = 'license-manager:List*',
+ Update = 'license-manager:Update*',
  AcceptGrant = 'license-manager:AcceptGrant',
  CheckInLicense = 'license-manager:CheckInLicense',
  CheckoutBorrowLicense = 'license-manager:CheckoutBorrowLicense',

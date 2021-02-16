@@ -1,5 +1,12 @@
 
 export enum personalize {
+ All = 'personalize:*',
+ Create = 'personalize:Create*',
+ Delete = 'personalize:Delete*',
+ Describe = 'personalize:Describe*',
+ Get = 'personalize:Get*',
+ List = 'personalize:List*',
+ Put = 'personalize:Put*',
  CreateBatchInferenceJob = 'personalize:CreateBatchInferenceJob',
  CreateCampaign = 'personalize:CreateCampaign',
  CreateDataset = 'personalize:CreateDataset',

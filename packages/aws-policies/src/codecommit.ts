@@ -1,5 +1,17 @@
 
 export enum codecommit {
+ All = 'codecommit:*',
+ Batch = 'codecommit:Batch*',
+ Create = 'codecommit:Create*',
+ Delete = 'codecommit:Delete*',
+ Describe = 'codecommit:Describe*',
+ Get = 'codecommit:Get*',
+ Git = 'codecommit:Git*',
+ List = 'codecommit:List*',
+ Merge = 'codecommit:Merge*',
+ Post = 'codecommit:Post*',
+ Put = 'codecommit:Put*',
+ Update = 'codecommit:Update*',
  AssociateApprovalRuleTemplateWithRepository = 'codecommit:AssociateApprovalRuleTemplateWithRepository',
  BatchAssociateApprovalRuleTemplateWithRepositories = 'codecommit:BatchAssociateApprovalRuleTemplateWithRepositories',
  BatchDescribeMergeConflicts = 'codecommit:BatchDescribeMergeConflicts',

@@ -1,5 +1,10 @@
 
 export enum detective {
+ All = 'detective:*',
+ Create = 'detective:Create*',
+ Delete = 'detective:Delete*',
+ Get = 'detective:Get*',
+ List = 'detective:List*',
  AcceptInvitation = 'detective:AcceptInvitation',
  CreateGraph = 'detective:CreateGraph',
  CreateMembers = 'detective:CreateMembers',

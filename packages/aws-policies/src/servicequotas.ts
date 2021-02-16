@@ -1,5 +1,8 @@
 
 export enum servicequotas {
+ All = 'servicequotas:*',
+ Get = 'servicequotas:Get*',
+ List = 'servicequotas:List*',
  AssociateServiceQuotaTemplate = 'servicequotas:AssociateServiceQuotaTemplate',
  DeleteServiceQuotaIncreaseRequestFromTemplate = 'servicequotas:DeleteServiceQuotaIncreaseRequestFromTemplate',
  DisassociateServiceQuotaTemplate = 'servicequotas:DisassociateServiceQuotaTemplate',

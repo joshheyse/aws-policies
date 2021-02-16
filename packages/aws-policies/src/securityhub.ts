@@ -1,5 +1,17 @@
 
 export enum securityhub {
+ All = 'securityhub:*',
+ Batch = 'securityhub:Batch*',
+ Create = 'securityhub:Create*',
+ Delete = 'securityhub:Delete*',
+ Describe = 'securityhub:Describe*',
+ Disable = 'securityhub:Disable*',
+ Disassociate = 'securityhub:Disassociate*',
+ Enable = 'securityhub:Enable*',
+ Get = 'securityhub:Get*',
+ List = 'securityhub:List*',
+ Send = 'securityhub:Send*',
+ Update = 'securityhub:Update*',
  AcceptInvitation = 'securityhub:AcceptInvitation',
  BatchDisableStandards = 'securityhub:BatchDisableStandards',
  BatchEnableStandards = 'securityhub:BatchEnableStandards',

@@ -1,5 +1,9 @@
 
 export enum app_integrations {
+ All = 'app-integrations:*',
+ Create = 'app-integrations:Create*',
+ Delete = 'app-integrations:Delete*',
+ List = 'app-integrations:List*',
  CreateEventIntegration = 'app-integrations:CreateEventIntegration',
  CreateEventIntegrationAssociation = 'app-integrations:CreateEventIntegrationAssociation',
  DeleteEventIntegration = 'app-integrations:DeleteEventIntegration',

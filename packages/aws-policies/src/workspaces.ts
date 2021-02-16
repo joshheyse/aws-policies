@@ -1,5 +1,10 @@
 
 export enum workspaces {
+ All = 'workspaces:*',
+ Create = 'workspaces:Create*',
+ Delete = 'workspaces:Delete*',
+ Describe = 'workspaces:Describe*',
+ Modify = 'workspaces:Modify*',
  AssociateIpGroups = 'workspaces:AssociateIpGroups',
  AuthorizeIpRules = 'workspaces:AuthorizeIpRules',
  CreateIpGroup = 'workspaces:CreateIpGroup',

@@ -1,5 +1,9 @@
 
 export enum trustedadvisor {
+ All = 'trustedadvisor:*',
+ Describe = 'trustedadvisor:Describe*',
+ List = 'trustedadvisor:List*',
+ Set = 'trustedadvisor:Set*',
  DescribeAccount = 'trustedadvisor:DescribeAccount',
  DescribeAccountAccess = 'trustedadvisor:DescribeAccountAccess',
  DescribeCheckItems = 'trustedadvisor:DescribeCheckItems',

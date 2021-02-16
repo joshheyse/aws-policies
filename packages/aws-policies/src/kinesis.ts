@@ -1,5 +1,10 @@
 
 export enum kinesis {
+ All = 'kinesis:*',
+ Describe = 'kinesis:Describe*',
+ Get = 'kinesis:Get*',
+ List = 'kinesis:List*',
+ Put = 'kinesis:Put*',
  AddTagsToStream = 'kinesis:AddTagsToStream',
  CreateStream = 'kinesis:CreateStream',
  DecreaseStreamRetentionPeriod = 'kinesis:DecreaseStreamRetentionPeriod',

@@ -1,5 +1,7 @@
 
 export enum health {
+ All = 'health:*',
+ Describe = 'health:Describe*',
  DescribeAffectedAccountsForOrganization = 'health:DescribeAffectedAccountsForOrganization',
  DescribeAffectedEntities = 'health:DescribeAffectedEntities',
  DescribeAffectedEntitiesForOrganization = 'health:DescribeAffectedEntitiesForOrganization',

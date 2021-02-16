@@ -1,5 +1,9 @@
 
 export enum outposts {
+ All = 'outposts:*',
+ Delete = 'outposts:Delete*',
+ Get = 'outposts:Get*',
+ List = 'outposts:List*',
  CreateOutpost = 'outposts:CreateOutpost',
  DeleteOutpost = 'outposts:DeleteOutpost',
  DeleteSite = 'outposts:DeleteSite',

@@ -1,5 +1,12 @@
 
 export enum events {
+ All = 'events:*',
+ Create = 'events:Create*',
+ Delete = 'events:Delete*',
+ Describe = 'events:Describe*',
+ List = 'events:List*',
+ Put = 'events:Put*',
+ Remove = 'events:Remove*',
  ActivateEventSource = 'events:ActivateEventSource',
  CancelReplay = 'events:CancelReplay',
  CreateArchive = 'events:CreateArchive',

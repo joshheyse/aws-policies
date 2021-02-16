@@ -1,5 +1,13 @@
 
 export enum iotwireless {
+ All = 'iotwireless:*',
+ Associate = 'iotwireless:Associate*',
+ Create = 'iotwireless:Create*',
+ Delete = 'iotwireless:Delete*',
+ Disassociate = 'iotwireless:Disassociate*',
+ Get = 'iotwireless:Get*',
+ List = 'iotwireless:List*',
+ Update = 'iotwireless:Update*',
  AssociateAwsAccountWithPartnerAccount = 'iotwireless:AssociateAwsAccountWithPartnerAccount',
  AssociateWirelessDeviceWithThing = 'iotwireless:AssociateWirelessDeviceWithThing',
  AssociateWirelessGatewayWithCertificate = 'iotwireless:AssociateWirelessGatewayWithCertificate',

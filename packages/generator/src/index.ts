@@ -4,7 +4,7 @@ import _ from 'lodash';
 import fs from 'fs';
 import path from 'path';
 
-type Service = {
+export type Service = {
   StringPrefix: string;
   Actions: any[];
   ARNFormat: string;
@@ -14,7 +14,7 @@ type Service = {
 
 const ENUM_TEMPLATE = `
 export enum <%= name %> {
-<% actions.forEach(function(a) { %> <%= a %> = '<%= prefix %>:<%= a %>',
+<% actions.forEach(function(a) { %> <%= a.name %> = '<%= prefix %>:<%= a.value %>',
 <% }) %>
 }`;
 
@@ -33,18 +33,28 @@ async function dirExists(dir: string): Promise<boolean> {
   }
 }
 
+function getFirstWord(str: string): string {
+  let i: number;
+  for(i = 1; i < str.length; i++) {
+    if(str[i] == str[i].toUpperCase()) {
+      break;
+    }
+  }
+  return str.substr(0, i);
+}
+
 async function main() {
 
   const enum_template = ejs.compile(ENUM_TEMPLATE);
   const index_template = ejs.compile(INDEX_TEMPLATE);
 
-  const outDir = path.join(__dirname, '../aws_policies/src');
+  const outDir = path.join('../aws-policies/src');
 
   if(!dirExists(outDir)) {
     await fs.promises.mkdir(outDir);
   }
   else {
-    await fs.promises.rmdir(outDir);
+    await fs.promises.rmdir(outDir, {recursive: true});
     await fs.promises.mkdir(outDir);
   }
 
@@ -60,10 +70,26 @@ async function main() {
 
   const groups =_.groupBy(serviceMap, 'StringPrefix');
   const services = _.sortBy(_.map(_.values(groups), (s) => {
+    const uniqActions: string[] = _.uniq(_.flatten(_.map(s, 'Actions')))
+    const groups = _.groupBy(uniqActions, a => getFirstWord(a));
+
+    const wildcardActions = _.compact(_.map(groups, (v, k) => {
+      if(v.length > 1) {
+        return {name: k, value: `${k}*`};
+      }
+      return null;
+    }));
+
+    const actions = [
+      {name: 'All', value: '*'},
+      ...wildcardActions,
+      ...(_.map(uniqActions, a => ({name: a, value: a})))
+    ];
+
     return {
       name: s[0].StringPrefix.replace(/-/g, '_'),
       prefix: s[0].StringPrefix,
-      actions: _.uniq(_.flatten(_.map(s, 'Actions')))
+      actions
     };
   }), _.identity);
 
@@ -78,4 +104,5 @@ async function main() {
   await fs.promises.writeFile(path.join(outDir, 'index.ts'), code);
 
 }
+
 main();

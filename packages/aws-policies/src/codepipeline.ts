@@ -1,5 +1,13 @@
 
 export enum codepipeline {
+ All = 'codepipeline:*',
+ Acknowledge = 'codepipeline:Acknowledge*',
+ Create = 'codepipeline:Create*',
+ Delete = 'codepipeline:Delete*',
+ Get = 'codepipeline:Get*',
+ List = 'codepipeline:List*',
+ Poll = 'codepipeline:Poll*',
+ Put = 'codepipeline:Put*',
  AcknowledgeJob = 'codepipeline:AcknowledgeJob',
  AcknowledgeThirdPartyJob = 'codepipeline:AcknowledgeThirdPartyJob',
  CreateCustomActionType = 'codepipeline:CreateCustomActionType',

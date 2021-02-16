@@ -1,5 +1,15 @@
 
 export enum backup {
+ All = 'backup:*',
+ Copy = 'backup:Copy*',
+ Create = 'backup:Create*',
+ Delete = 'backup:Delete*',
+ Describe = 'backup:Describe*',
+ Get = 'backup:Get*',
+ List = 'backup:List*',
+ Put = 'backup:Put*',
+ Start = 'backup:Start*',
+ Update = 'backup:Update*',
  CopyFromBackupVault = 'backup:CopyFromBackupVault',
  CopyIntoBackupVault = 'backup:CopyIntoBackupVault',
  CreateBackupPlan = 'backup:CreateBackupPlan',

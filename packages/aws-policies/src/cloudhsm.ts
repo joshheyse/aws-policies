@@ -1,5 +1,11 @@
 
 export enum cloudhsm {
+ All = 'cloudhsm:*',
+ Create = 'cloudhsm:Create*',
+ Delete = 'cloudhsm:Delete*',
+ Describe = 'cloudhsm:Describe*',
+ List = 'cloudhsm:List*',
+ Modify = 'cloudhsm:Modify*',
  AddTagsToResource = 'cloudhsm:AddTagsToResource',
  CopyBackupToRegion = 'cloudhsm:CopyBackupToRegion',
  CreateCluster = 'cloudhsm:CreateCluster',

@@ -1,5 +1,12 @@
 
 export enum transcribe {
+ All = 'transcribe:*',
+ Create = 'transcribe:Create*',
+ Delete = 'transcribe:Delete*',
+ Get = 'transcribe:Get*',
+ List = 'transcribe:List*',
+ Start = 'transcribe:Start*',
+ Update = 'transcribe:Update*',
  CreateLanguageModel = 'transcribe:CreateLanguageModel',
  CreateMedicalVocabulary = 'transcribe:CreateMedicalVocabulary',
  CreateVocabulary = 'transcribe:CreateVocabulary',

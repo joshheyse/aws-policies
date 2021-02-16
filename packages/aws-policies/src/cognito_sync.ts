@@ -1,5 +1,10 @@
 
 export enum cognito_sync {
+ All = 'cognito-sync:*',
+ Describe = 'cognito-sync:Describe*',
+ Get = 'cognito-sync:Get*',
+ List = 'cognito-sync:List*',
+ Set = 'cognito-sync:Set*',
  BulkPublish = 'cognito-sync:BulkPublish',
  DeleteDataset = 'cognito-sync:DeleteDataset',
  DescribeDataset = 'cognito-sync:DescribeDataset',

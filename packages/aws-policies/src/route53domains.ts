@@ -1,5 +1,11 @@
 
 export enum route53domains {
+ All = 'route53domains:*',
+ Disable = 'route53domains:Disable*',
+ Enable = 'route53domains:Enable*',
+ Get = 'route53domains:Get*',
+ List = 'route53domains:List*',
+ Update = 'route53domains:Update*',
  CheckDomainAvailability = 'route53domains:CheckDomainAvailability',
  DeleteTagsForDomain = 'route53domains:DeleteTagsForDomain',
  DisableDomainAutoRenew = 'route53domains:DisableDomainAutoRenew',

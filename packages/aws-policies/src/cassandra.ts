@@ -1,5 +1,6 @@
 
 export enum cassandra {
+ All = 'cassandra:*',
  Alter = 'cassandra:Alter',
  Create = 'cassandra:Create',
  Drop = 'cassandra:Drop',

@@ -1,5 +1,11 @@
 
 export enum s3_outposts {
+ All = 's3-outposts:*',
+ Create = 's3-outposts:Create*',
+ Delete = 's3-outposts:Delete*',
+ Get = 's3-outposts:Get*',
+ List = 's3-outposts:List*',
+ Put = 's3-outposts:Put*',
  AbortMultipartUpload = 's3-outposts:AbortMultipartUpload',
  CreateAccessPoint = 's3-outposts:CreateAccessPoint',
  CreateBucket = 's3-outposts:CreateBucket',

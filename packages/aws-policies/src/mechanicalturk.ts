@@ -1,5 +1,13 @@
 
 export enum mechanicalturk {
+ All = 'mechanicalturk:*',
+ Create = 'mechanicalturk:Create*',
+ Delete = 'mechanicalturk:Delete*',
+ Get = 'mechanicalturk:Get*',
+ List = 'mechanicalturk:List*',
+ Reject = 'mechanicalturk:Reject*',
+ Send = 'mechanicalturk:Send*',
+ Update = 'mechanicalturk:Update*',
  AcceptQualificationRequest = 'mechanicalturk:AcceptQualificationRequest',
  ApproveAssignment = 'mechanicalturk:ApproveAssignment',
  AssociateQualificationWithWorker = 'mechanicalturk:AssociateQualificationWithWorker',

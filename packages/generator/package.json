@@ -6,8 +6,7 @@
   "type": "module",
   "private": true,
   "scripts": {
-    "generate": "node --loader ts-node/esm.mjs --experimental-top-level-await generate.ts",
-    "build": "tsc --project build_tsconfig.jsonc"
+    "build": "tsc && node ./dist/index.js"
   },
   "devDependencies": {
     "@types/ejs": "^3.0.5",

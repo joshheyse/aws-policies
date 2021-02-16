@@ -1,5 +1,8 @@
 
 export enum braket {
+ All = 'braket:*',
+ Get = 'braket:Get*',
+ Search = 'braket:Search*',
  CancelQuantumTask = 'braket:CancelQuantumTask',
  CreateQuantumTask = 'braket:CreateQuantumTask',
  GetDevice = 'braket:GetDevice',

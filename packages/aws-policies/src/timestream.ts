@@ -1,5 +1,12 @@
 
 export enum timestream {
+ All = 'timestream:*',
+ Create = 'timestream:Create*',
+ Delete = 'timestream:Delete*',
+ Describe = 'timestream:Describe*',
+ List = 'timestream:List*',
+ Select = 'timestream:Select*',
+ Update = 'timestream:Update*',
  CancelQuery = 'timestream:CancelQuery',
  CreateDatabase = 'timestream:CreateDatabase',
  CreateTable = 'timestream:CreateTable',

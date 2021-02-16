@@ -1,5 +1,9 @@
 
 export enum codeguru_profiler {
+ All = 'codeguru-profiler:*',
+ Get = 'codeguru-profiler:Get*',
+ List = 'codeguru-profiler:List*',
+ Remove = 'codeguru-profiler:Remove*',
  AddNotificationChannels = 'codeguru-profiler:AddNotificationChannels',
  BatchGetFrameMetricData = 'codeguru-profiler:BatchGetFrameMetricData',
  ConfigureAgent = 'codeguru-profiler:ConfigureAgent',

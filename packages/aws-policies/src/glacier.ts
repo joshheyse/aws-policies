@@ -1,5 +1,15 @@
 
 export enum glacier {
+ All = 'glacier:*',
+ Abort = 'glacier:Abort*',
+ Complete = 'glacier:Complete*',
+ Delete = 'glacier:Delete*',
+ Describe = 'glacier:Describe*',
+ Get = 'glacier:Get*',
+ Initiate = 'glacier:Initiate*',
+ List = 'glacier:List*',
+ Set = 'glacier:Set*',
+ Upload = 'glacier:Upload*',
  AbortMultipartUpload = 'glacier:AbortMultipartUpload',
  AbortVaultLock = 'glacier:AbortVaultLock',
  AddTagsToVault = 'glacier:AddTagsToVault',

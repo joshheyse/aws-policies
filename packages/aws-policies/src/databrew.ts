@@ -1,5 +1,12 @@
 
 export enum databrew {
+ All = 'databrew:*',
+ Create = 'databrew:Create*',
+ Delete = 'databrew:Delete*',
+ Describe = 'databrew:Describe*',
+ List = 'databrew:List*',
+ Start = 'databrew:Start*',
+ Update = 'databrew:Update*',
  BatchDeleteRecipeVersion = 'databrew:BatchDeleteRecipeVersion',
  CreateDataset = 'databrew:CreateDataset',
  CreateProfileJob = 'databrew:CreateProfileJob',

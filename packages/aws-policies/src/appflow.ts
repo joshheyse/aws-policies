@@ -1,5 +1,11 @@
 
 export enum appflow {
+ All = 'appflow:*',
+ Create = 'appflow:Create*',
+ Delete = 'appflow:Delete*',
+ Describe = 'appflow:Describe*',
+ List = 'appflow:List*',
+ Update = 'appflow:Update*',
  CreateConnectorProfile = 'appflow:CreateConnectorProfile',
  CreateFlow = 'appflow:CreateFlow',
  DeleteConnectorProfile = 'appflow:DeleteConnectorProfile',

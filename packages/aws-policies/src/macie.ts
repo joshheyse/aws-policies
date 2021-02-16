@@ -1,5 +1,9 @@
 
 export enum macie {
+ All = 'macie:*',
+ Associate = 'macie:Associate*',
+ Disassociate = 'macie:Disassociate*',
+ List = 'macie:List*',
  AssociateMemberAccount = 'macie:AssociateMemberAccount',
  AssociateS3Resources = 'macie:AssociateS3Resources',
  DisassociateMemberAccount = 'macie:DisassociateMemberAccount',

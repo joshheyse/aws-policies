@@ -1,5 +1,8 @@
 
 export enum iotdeviceadvisor {
+ All = 'iotdeviceadvisor:*',
+ Get = 'iotdeviceadvisor:Get*',
+ List = 'iotdeviceadvisor:List*',
  CreateSuiteDefinition = 'iotdeviceadvisor:CreateSuiteDefinition',
  DeleteSuiteDefinition = 'iotdeviceadvisor:DeleteSuiteDefinition',
  GetSuiteDefinition = 'iotdeviceadvisor:GetSuiteDefinition',

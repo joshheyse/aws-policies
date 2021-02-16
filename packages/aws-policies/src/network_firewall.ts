@@ -1,5 +1,12 @@
 
 export enum network_firewall {
+ All = 'network-firewall:*',
+ Associate = 'network-firewall:Associate*',
+ Create = 'network-firewall:Create*',
+ Delete = 'network-firewall:Delete*',
+ Describe = 'network-firewall:Describe*',
+ List = 'network-firewall:List*',
+ Update = 'network-firewall:Update*',
  AssociateFirewallPolicy = 'network-firewall:AssociateFirewallPolicy',
  AssociateSubnets = 'network-firewall:AssociateSubnets',
  CreateFirewall = 'network-firewall:CreateFirewall',

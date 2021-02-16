@@ -1,5 +1,10 @@
 
 export enum chatbot {
+ All = 'chatbot:*',
+ Create = 'chatbot:Create*',
+ Delete = 'chatbot:Delete*',
+ Describe = 'chatbot:Describe*',
+ Update = 'chatbot:Update*',
  CreateChimeWebhookConfiguration = 'chatbot:CreateChimeWebhookConfiguration',
  CreateSlackChannelConfiguration = 'chatbot:CreateSlackChannelConfiguration',
  DeleteChimeWebhookConfiguration = 'chatbot:DeleteChimeWebhookConfiguration',

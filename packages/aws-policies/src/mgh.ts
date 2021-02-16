@@ -1,5 +1,12 @@
 
 export enum mgh {
+ All = 'mgh:*',
+ Associate = 'mgh:Associate*',
+ Create = 'mgh:Create*',
+ Describe = 'mgh:Describe*',
+ Disassociate = 'mgh:Disassociate*',
+ List = 'mgh:List*',
+ Notify = 'mgh:Notify*',
  AssociateCreatedArtifact = 'mgh:AssociateCreatedArtifact',
  AssociateDiscoveredResource = 'mgh:AssociateDiscoveredResource',
  CreateHomeRegionControl = 'mgh:CreateHomeRegionControl',

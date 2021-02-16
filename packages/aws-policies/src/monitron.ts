@@ -1,5 +1,8 @@
 
 export enum monitron {
+ All = 'monitron:*',
+ Get = 'monitron:Get*',
+ List = 'monitron:List*',
  AssociateProjectAdminUser = 'monitron:AssociateProjectAdminUser',
  CreateProject = 'monitron:CreateProject',
  DeleteProject = 'monitron:DeleteProject',

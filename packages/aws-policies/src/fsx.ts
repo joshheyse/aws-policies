@@ -1,5 +1,9 @@
 
 export enum fsx {
+ All = 'fsx:*',
+ Create = 'fsx:Create*',
+ Delete = 'fsx:Delete*',
+ Describe = 'fsx:Describe*',
  CancelDataRepositoryTask = 'fsx:CancelDataRepositoryTask',
  CreateBackup = 'fsx:CreateBackup',
  CreateDataRepositoryTask = 'fsx:CreateDataRepositoryTask',

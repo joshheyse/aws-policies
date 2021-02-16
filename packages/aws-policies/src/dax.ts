@@ -1,5 +1,11 @@
 
 export enum dax {
+ All = 'dax:*',
+ Batch = 'dax:Batch*',
+ Create = 'dax:Create*',
+ Delete = 'dax:Delete*',
+ Describe = 'dax:Describe*',
+ Update = 'dax:Update*',
  BatchGetItem = 'dax:BatchGetItem',
  BatchWriteItem = 'dax:BatchWriteItem',
  ConditionCheckItem = 'dax:ConditionCheckItem',

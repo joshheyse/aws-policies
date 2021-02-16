@@ -1,5 +1,17 @@
 
 export enum sagemaker {
+ All = 'sagemaker:*',
+ Add = 'sagemaker:Add*',
+ Batch = 'sagemaker:Batch*',
+ Create = 'sagemaker:Create*',
+ Delete = 'sagemaker:Delete*',
+ Describe = 'sagemaker:Describe*',
+ Get = 'sagemaker:Get*',
+ List = 'sagemaker:List*',
+ Put = 'sagemaker:Put*',
+ Start = 'sagemaker:Start*',
+ Stop = 'sagemaker:Stop*',
+ Update = 'sagemaker:Update*',
  AddAssociation = 'sagemaker:AddAssociation',
  AddTags = 'sagemaker:AddTags',
  AssociateTrialComponent = 'sagemaker:AssociateTrialComponent',

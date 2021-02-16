@@ -1,5 +1,11 @@
 
 export enum kinesisanalytics {
+ All = 'kinesisanalytics:*',
+ Add = 'kinesisanalytics:Add*',
+ Create = 'kinesisanalytics:Create*',
+ Delete = 'kinesisanalytics:Delete*',
+ Describe = 'kinesisanalytics:Describe*',
+ List = 'kinesisanalytics:List*',
  AddApplicationCloudWatchLoggingOption = 'kinesisanalytics:AddApplicationCloudWatchLoggingOption',
  AddApplicationInput = 'kinesisanalytics:AddApplicationInput',
  AddApplicationInputProcessingConfiguration = 'kinesisanalytics:AddApplicationInputProcessingConfiguration',

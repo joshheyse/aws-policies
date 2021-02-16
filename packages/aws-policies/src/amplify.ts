@@ -1,5 +1,12 @@
 
 export enum amplify {
+ All = 'amplify:*',
+ Create = 'amplify:Create*',
+ Delete = 'amplify:Delete*',
+ Get = 'amplify:Get*',
+ List = 'amplify:List*',
+ Start = 'amplify:Start*',
+ Update = 'amplify:Update*',
  CreateApp = 'amplify:CreateApp',
  CreateBackendEnvironment = 'amplify:CreateBackendEnvironment',
  CreateBranch = 'amplify:CreateBranch',

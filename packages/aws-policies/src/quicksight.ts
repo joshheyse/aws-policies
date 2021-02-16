@@ -1,5 +1,14 @@
 
 export enum quicksight {
+ All = 'quicksight:*',
+ Create = 'quicksight:Create*',
+ Delete = 'quicksight:Delete*',
+ Describe = 'quicksight:Describe*',
+ Get = 'quicksight:Get*',
+ List = 'quicksight:List*',
+ Pass = 'quicksight:Pass*',
+ Search = 'quicksight:Search*',
+ Update = 'quicksight:Update*',
  CancelIngestion = 'quicksight:CancelIngestion',
  CreateAccountCustomization = 'quicksight:CreateAccountCustomization',
  CreateAdmin = 'quicksight:CreateAdmin',

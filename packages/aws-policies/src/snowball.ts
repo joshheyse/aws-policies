@@ -1,5 +1,12 @@
 
 export enum snowball {
+ All = 'snowball:*',
+ Cancel = 'snowball:Cancel*',
+ Create = 'snowball:Create*',
+ Describe = 'snowball:Describe*',
+ Get = 'snowball:Get*',
+ List = 'snowball:List*',
+ Update = 'snowball:Update*',
  CancelCluster = 'snowball:CancelCluster',
  CancelJob = 'snowball:CancelJob',
  CreateAddress = 'snowball:CreateAddress',

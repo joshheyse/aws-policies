@@ -1,5 +1,10 @@
 
 export enum dbqms {
+ All = 'dbqms:*',
+ Create = 'dbqms:Create*',
+ Delete = 'dbqms:Delete*',
+ Describe = 'dbqms:Describe*',
+ Update = 'dbqms:Update*',
  CreateFavoriteQuery = 'dbqms:CreateFavoriteQuery',
  CreateQueryHistory = 'dbqms:CreateQueryHistory',
  DeleteFavoriteQueries = 'dbqms:DeleteFavoriteQueries',

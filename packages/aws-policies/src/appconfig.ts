@@ -1,5 +1,11 @@
 
 export enum appconfig {
+ All = 'appconfig:*',
+ Create = 'appconfig:Create*',
+ Delete = 'appconfig:Delete*',
+ Get = 'appconfig:Get*',
+ List = 'appconfig:List*',
+ Update = 'appconfig:Update*',
  CreateApplication = 'appconfig:CreateApplication',
  CreateConfigurationProfile = 'appconfig:CreateConfigurationProfile',
  CreateDeploymentStrategy = 'appconfig:CreateDeploymentStrategy',

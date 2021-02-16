@@ -1,5 +1,7 @@
 
 export enum autoscaling_plans {
+ All = 'autoscaling-plans:*',
+ Describe = 'autoscaling-plans:Describe*',
  CreateScalingPlan = 'autoscaling-plans:CreateScalingPlan',
  DeleteScalingPlan = 'autoscaling-plans:DeleteScalingPlan',
  DescribeScalingPlanResources = 'autoscaling-plans:DescribeScalingPlanResources',

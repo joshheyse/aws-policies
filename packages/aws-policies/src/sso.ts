@@ -1,5 +1,16 @@
 
 export enum sso {
+ All = 'sso:*',
+ Associate = 'sso:Associate*',
+ Create = 'sso:Create*',
+ Delete = 'sso:Delete*',
+ Describe = 'sso:Describe*',
+ Disassociate = 'sso:Disassociate*',
+ Get = 'sso:Get*',
+ List = 'sso:List*',
+ Put = 'sso:Put*',
+ Search = 'sso:Search*',
+ Update = 'sso:Update*',
  AssociateDirectory = 'sso:AssociateDirectory',
  AssociateProfile = 'sso:AssociateProfile',
  AttachManagedPolicyToPermissionSet = 'sso:AttachManagedPolicyToPermissionSet',

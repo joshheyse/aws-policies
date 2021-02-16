@@ -1,5 +1,12 @@
 
 export enum route53 {
+ All = 'route53:*',
+ Change = 'route53:Change*',
+ Create = 'route53:Create*',
+ Delete = 'route53:Delete*',
+ Get = 'route53:Get*',
+ List = 'route53:List*',
+ Update = 'route53:Update*',
  AssociateVPCWithHostedZone = 'route53:AssociateVPCWithHostedZone',
  ChangeResourceRecordSets = 'route53:ChangeResourceRecordSets',
  ChangeTagsForResource = 'route53:ChangeTagsForResource',

@@ -1,5 +1,11 @@
 
 export enum elastictranscoder {
+ All = 'elastictranscoder:*',
+ Create = 'elastictranscoder:Create*',
+ Delete = 'elastictranscoder:Delete*',
+ List = 'elastictranscoder:List*',
+ Read = 'elastictranscoder:Read*',
+ Update = 'elastictranscoder:Update*',
  CancelJob = 'elastictranscoder:CancelJob',
  CreateJob = 'elastictranscoder:CreateJob',
  CreatePipeline = 'elastictranscoder:CreatePipeline',

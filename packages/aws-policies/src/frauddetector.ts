@@ -1,5 +1,13 @@
 
 export enum frauddetector {
+ All = 'frauddetector:*',
+ Batch = 'frauddetector:Batch*',
+ Create = 'frauddetector:Create*',
+ Delete = 'frauddetector:Delete*',
+ Describe = 'frauddetector:Describe*',
+ Get = 'frauddetector:Get*',
+ Put = 'frauddetector:Put*',
+ Update = 'frauddetector:Update*',
  BatchCreateVariable = 'frauddetector:BatchCreateVariable',
  BatchGetVariable = 'frauddetector:BatchGetVariable',
  CreateDetectorVersion = 'frauddetector:CreateDetectorVersion',

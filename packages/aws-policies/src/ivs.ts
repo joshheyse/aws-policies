@@ -1,5 +1,11 @@
 
 export enum ivs {
+ All = 'ivs:*',
+ Batch = 'ivs:Batch*',
+ Create = 'ivs:Create*',
+ Delete = 'ivs:Delete*',
+ Get = 'ivs:Get*',
+ List = 'ivs:List*',
  BatchGetChannel = 'ivs:BatchGetChannel',
  BatchGetStreamKey = 'ivs:BatchGetStreamKey',
  CreateChannel = 'ivs:CreateChannel',

@@ -1,5 +1,13 @@
 
 export enum aws_marketplace {
+ All = 'aws-marketplace:*',
+ Describe = 'aws-marketplace:Describe*',
+ Cancel = 'aws-marketplace:Cancel*',
+ List = 'aws-marketplace:List*',
+ Start = 'aws-marketplace:Start*',
+ Update = 'aws-marketplace:Update*',
+ Get = 'aws-marketplace:Get*',
+ Create = 'aws-marketplace:Create*',
  BatchMeterUsage = 'aws-marketplace:BatchMeterUsage',
  MeterUsage = 'aws-marketplace:MeterUsage',
  RegisterUsage = 'aws-marketplace:RegisterUsage',

@@ -1,5 +1,11 @@
 
 export enum amplifybackend {
+ All = 'amplifybackend:*',
+ Create = 'amplifybackend:Create*',
+ Delete = 'amplifybackend:Delete*',
+ Get = 'amplifybackend:Get*',
+ Remove = 'amplifybackend:Remove*',
+ Update = 'amplifybackend:Update*',
  CloneBackend = 'amplifybackend:CloneBackend',
  CreateBackend = 'amplifybackend:CreateBackend',
  CreateBackendAPI = 'amplifybackend:CreateBackendAPI',

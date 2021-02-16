@@ -1,5 +1,14 @@
 
 export enum route53resolver {
+ All = 'route53resolver:*',
+ Associate = 'route53resolver:Associate*',
+ Create = 'route53resolver:Create*',
+ Delete = 'route53resolver:Delete*',
+ Disassociate = 'route53resolver:Disassociate*',
+ Get = 'route53resolver:Get*',
+ List = 'route53resolver:List*',
+ Put = 'route53resolver:Put*',
+ Update = 'route53resolver:Update*',
  AssociateResolverEndpointIpAddress = 'route53resolver:AssociateResolverEndpointIpAddress',
  AssociateResolverQueryLogConfig = 'route53resolver:AssociateResolverQueryLogConfig',
  AssociateResolverRule = 'route53resolver:AssociateResolverRule',

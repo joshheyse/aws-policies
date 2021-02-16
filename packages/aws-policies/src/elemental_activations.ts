@@ -1,5 +1,8 @@
 
 export enum elemental_activations {
+ All = 'elemental-activations:*',
+ Complete = 'elemental-activations:Complete*',
+ Start = 'elemental-activations:Start*',
  CompleteAccountRegistration = 'elemental-activations:CompleteAccountRegistration',
  CompleteFileUpload = 'elemental-activations:CompleteFileUpload',
  DownloadSoftware = 'elemental-activations:DownloadSoftware',

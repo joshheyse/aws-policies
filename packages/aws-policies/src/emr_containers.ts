@@ -1,5 +1,8 @@
 
 export enum emr_containers {
+ All = 'emr-containers:*',
+ Describe = 'emr-containers:Describe*',
+ List = 'emr-containers:List*',
  CancelJobRun = 'emr-containers:CancelJobRun',
  CreateVirtualCluster = 'emr-containers:CreateVirtualCluster',
  DeleteVirtualCluster = 'emr-containers:DeleteVirtualCluster',

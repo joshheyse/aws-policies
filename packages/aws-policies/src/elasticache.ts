@@ -1,5 +1,14 @@
 
 export enum elasticache {
+ All = 'elasticache:*',
+ Batch = 'elasticache:Batch*',
+ Create = 'elasticache:Create*',
+ Decrease = 'elasticache:Decrease*',
+ Delete = 'elasticache:Delete*',
+ Describe = 'elasticache:Describe*',
+ Increase = 'elasticache:Increase*',
+ List = 'elasticache:List*',
+ Modify = 'elasticache:Modify*',
  AddTagsToResource = 'elasticache:AddTagsToResource',
  AuthorizeCacheSecurityGroupIngress = 'elasticache:AuthorizeCacheSecurityGroupIngress',
  BatchApplyUpdateAction = 'elasticache:BatchApplyUpdateAction',

@@ -1,5 +1,9 @@
 
 export enum devops_guru {
+ All = 'devops-guru:*',
+ Describe = 'devops-guru:Describe*',
+ List = 'devops-guru:List*',
+ Update = 'devops-guru:Update*',
  AddNotificationChannel = 'devops-guru:AddNotificationChannel',
  DescribeAccountHealth = 'devops-guru:DescribeAccountHealth',
  DescribeAccountOverview = 'devops-guru:DescribeAccountOverview',

@@ -1,5 +1,13 @@
 
 export enum schemas {
+ All = 'schemas:*',
+ Create = 'schemas:Create*',
+ Delete = 'schemas:Delete*',
+ Describe = 'schemas:Describe*',
+ Get = 'schemas:Get*',
+ List = 'schemas:List*',
+ Put = 'schemas:Put*',
+ Update = 'schemas:Update*',
  CreateDiscoverer = 'schemas:CreateDiscoverer',
  CreateRegistry = 'schemas:CreateRegistry',
  CreateSchema = 'schemas:CreateSchema',

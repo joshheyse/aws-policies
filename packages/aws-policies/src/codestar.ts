@@ -1,5 +1,11 @@
 
 export enum codestar {
+ All = 'codestar:*',
+ Create = 'codestar:Create*',
+ Delete = 'codestar:Delete*',
+ Describe = 'codestar:Describe*',
+ List = 'codestar:List*',
+ Update = 'codestar:Update*',
  AssociateTeamMember = 'codestar:AssociateTeamMember',
  CreateProject = 'codestar:CreateProject',
  CreateUserProfile = 'codestar:CreateUserProfile',

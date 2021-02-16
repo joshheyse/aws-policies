@@ -1,5 +1,12 @@
 
 export enum profile {
+ All = 'profile:*',
+ Create = 'profile:Create*',
+ Delete = 'profile:Delete*',
+ Get = 'profile:Get*',
+ List = 'profile:List*',
+ Put = 'profile:Put*',
+ Update = 'profile:Update*',
  AddProfileKey = 'profile:AddProfileKey',
  CreateDomain = 'profile:CreateDomain',
  CreateProfile = 'profile:CreateProfile',

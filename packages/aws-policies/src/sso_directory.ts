@@ -1,5 +1,17 @@
 
 export enum sso_directory {
+ All = 'sso-directory:*',
+ Complete = 'sso-directory:Complete*',
+ Create = 'sso-directory:Create*',
+ Delete = 'sso-directory:Delete*',
+ Describe = 'sso-directory:Describe*',
+ Disable = 'sso-directory:Disable*',
+ Enable = 'sso-directory:Enable*',
+ Get = 'sso-directory:Get*',
+ List = 'sso-directory:List*',
+ Search = 'sso-directory:Search*',
+ Start = 'sso-directory:Start*',
+ Update = 'sso-directory:Update*',
  AddMemberToGroup = 'sso-directory:AddMemberToGroup',
  CompleteVirtualMfaDeviceRegistration = 'sso-directory:CompleteVirtualMfaDeviceRegistration',
  CompleteWebAuthnDeviceRegistration = 'sso-directory:CompleteWebAuthnDeviceRegistration',

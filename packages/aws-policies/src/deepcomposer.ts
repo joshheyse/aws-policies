@@ -1,5 +1,11 @@
 
 export enum deepcomposer {
+ All = 'deepcomposer:*',
+ Create = 'deepcomposer:Create*',
+ Delete = 'deepcomposer:Delete*',
+ Get = 'deepcomposer:Get*',
+ List = 'deepcomposer:List*',
+ Update = 'deepcomposer:Update*',
  AssociateCoupon = 'deepcomposer:AssociateCoupon',
  CreateAudio = 'deepcomposer:CreateAudio',
  CreateComposition = 'deepcomposer:CreateComposition',

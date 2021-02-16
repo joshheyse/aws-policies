@@ -1,5 +1,12 @@
 
 export enum imagebuilder {
+ All = 'imagebuilder:*',
+ Create = 'imagebuilder:Create*',
+ Delete = 'imagebuilder:Delete*',
+ Get = 'imagebuilder:Get*',
+ List = 'imagebuilder:List*',
+ Put = 'imagebuilder:Put*',
+ Update = 'imagebuilder:Update*',
  CancelImageCreation = 'imagebuilder:CancelImageCreation',
  CreateComponent = 'imagebuilder:CreateComponent',
  CreateContainerRecipe = 'imagebuilder:CreateContainerRecipe',

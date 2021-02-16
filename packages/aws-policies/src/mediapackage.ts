@@ -1,5 +1,11 @@
 
 export enum mediapackage {
+ All = 'mediapackage:*',
+ Create = 'mediapackage:Create*',
+ Delete = 'mediapackage:Delete*',
+ Describe = 'mediapackage:Describe*',
+ List = 'mediapackage:List*',
+ Update = 'mediapackage:Update*',
  CreateChannel = 'mediapackage:CreateChannel',
  CreateHarvestJob = 'mediapackage:CreateHarvestJob',
  CreateOriginEndpoint = 'mediapackage:CreateOriginEndpoint',

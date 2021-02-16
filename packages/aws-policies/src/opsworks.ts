@@ -1,5 +1,17 @@
 
 export enum opsworks {
+ All = 'opsworks:*',
+ Assign = 'opsworks:Assign*',
+ Create = 'opsworks:Create*',
+ Delete = 'opsworks:Delete*',
+ Deregister = 'opsworks:Deregister*',
+ Describe = 'opsworks:Describe*',
+ Register = 'opsworks:Register*',
+ Set = 'opsworks:Set*',
+ Start = 'opsworks:Start*',
+ Stop = 'opsworks:Stop*',
+ Unassign = 'opsworks:Unassign*',
+ Update = 'opsworks:Update*',
  AssignInstance = 'opsworks:AssignInstance',
  AssignVolume = 'opsworks:AssignVolume',
  AssociateElasticIp = 'opsworks:AssociateElasticIp',

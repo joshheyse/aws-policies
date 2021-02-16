@@ -1,5 +1,10 @@
 
 export enum inspector {
+ All = 'inspector:*',
+ Create = 'inspector:Create*',
+ Delete = 'inspector:Delete*',
+ Describe = 'inspector:Describe*',
+ List = 'inspector:List*',
  AddAttributesToFindings = 'inspector:AddAttributesToFindings',
  CreateAssessmentTarget = 'inspector:CreateAssessmentTarget',
  CreateAssessmentTemplate = 'inspector:CreateAssessmentTemplate',

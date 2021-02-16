@@ -1,5 +1,11 @@
 
 export enum deepracer {
+ All = 'deepracer:*',
+ Create = 'deepracer:Create*',
+ Delete = 'deepracer:Delete*',
+ Get = 'deepracer:Get*',
+ List = 'deepracer:List*',
+ Stop = 'deepracer:Stop*',
  CloneReinforcementLearningModel = 'deepracer:CloneReinforcementLearningModel',
  CreateAccountResources = 'deepracer:CreateAccountResources',
  CreateLeaderboardSubmission = 'deepracer:CreateLeaderboardSubmission',

@@ -1,5 +1,11 @@
 
 export enum datapipeline {
+ All = 'datapipeline:*',
+ Describe = 'datapipeline:Describe*',
+ Get = 'datapipeline:Get*',
+ Put = 'datapipeline:Put*',
+ Report = 'datapipeline:Report*',
+ Set = 'datapipeline:Set*',
  ActivatePipeline = 'datapipeline:ActivatePipeline',
  AddTags = 'datapipeline:AddTags',
  CreatePipeline = 'datapipeline:CreatePipeline',

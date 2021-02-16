@@ -1,5 +1,12 @@
 
 export enum waf {
+ All = 'waf:*',
+ Create = 'waf:Create*',
+ Delete = 'waf:Delete*',
+ Get = 'waf:Get*',
+ List = 'waf:List*',
+ Put = 'waf:Put*',
+ Update = 'waf:Update*',
  CreateByteMatchSet = 'waf:CreateByteMatchSet',
  CreateGeoMatchSet = 'waf:CreateGeoMatchSet',
  CreateIPSet = 'waf:CreateIPSet',

@@ -1,5 +1,16 @@
 
 export enum kms {
+ All = 'kms:*',
+ Create = 'kms:Create*',
+ Delete = 'kms:Delete*',
+ Describe = 'kms:Describe*',
+ Disable = 'kms:Disable*',
+ Enable = 'kms:Enable*',
+ Generate = 'kms:Generate*',
+ Get = 'kms:Get*',
+ List = 'kms:List*',
+ Re = 'kms:Re*',
+ Update = 'kms:Update*',
  CancelKeyDeletion = 'kms:CancelKeyDeletion',
  ConnectCustomKeyStore = 'kms:ConnectCustomKeyStore',
  CreateAlias = 'kms:CreateAlias',

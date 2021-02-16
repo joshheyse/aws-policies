@@ -1,5 +1,16 @@
 
 export enum lex {
+ All = 'lex:*',
+ Create = 'lex:Create*',
+ Delete = 'lex:Delete*',
+ Describe = 'lex:Describe*',
+ Get = 'lex:Get*',
+ List = 'lex:List*',
+ Put = 'lex:Put*',
+ Recognize = 'lex:Recognize*',
+ Start = 'lex:Start*',
+ Update = 'lex:Update*',
+ Post = 'lex:Post*',
  BuildBotLocale = 'lex:BuildBotLocale',
  CreateBot = 'lex:CreateBot',
  CreateBotAlias = 'lex:CreateBotAlias',

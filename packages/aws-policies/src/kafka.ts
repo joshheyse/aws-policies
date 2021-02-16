@@ -1,5 +1,13 @@
 
 export enum kafka {
+ All = 'kafka:*',
+ Batch = 'kafka:Batch*',
+ Create = 'kafka:Create*',
+ Delete = 'kafka:Delete*',
+ Describe = 'kafka:Describe*',
+ Get = 'kafka:Get*',
+ List = 'kafka:List*',
+ Update = 'kafka:Update*',
  BatchAssociateScramSecret = 'kafka:BatchAssociateScramSecret',
  BatchDisassociateScramSecret = 'kafka:BatchDisassociateScramSecret',
  CreateCluster = 'kafka:CreateCluster',

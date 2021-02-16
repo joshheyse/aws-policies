@@ -1,5 +1,14 @@
 
 export enum cloudformation {
+ All = 'cloudformation:*',
+ Create = 'cloudformation:Create*',
+ Delete = 'cloudformation:Delete*',
+ Describe = 'cloudformation:Describe*',
+ Detect = 'cloudformation:Detect*',
+ Get = 'cloudformation:Get*',
+ List = 'cloudformation:List*',
+ Set = 'cloudformation:Set*',
+ Update = 'cloudformation:Update*',
  CancelUpdateStack = 'cloudformation:CancelUpdateStack',
  ContinueUpdateRollback = 'cloudformation:ContinueUpdateRollback',
  CreateChangeSet = 'cloudformation:CreateChangeSet',

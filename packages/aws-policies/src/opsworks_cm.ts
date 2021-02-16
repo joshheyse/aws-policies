@@ -1,5 +1,10 @@
 
 export enum opsworks_cm {
+ All = 'opsworks-cm:*',
+ Create = 'opsworks-cm:Create*',
+ Delete = 'opsworks-cm:Delete*',
+ Describe = 'opsworks-cm:Describe*',
+ Update = 'opsworks-cm:Update*',
  AssociateNode = 'opsworks-cm:AssociateNode',
  CreateBackup = 'opsworks-cm:CreateBackup',
  CreateServer = 'opsworks-cm:CreateServer',

@@ -1,5 +1,11 @@
 
 export enum mobilehub {
+ All = 'mobilehub:*',
+ Create = 'mobilehub:Create*',
+ Delete = 'mobilehub:Delete*',
+ Export = 'mobilehub:Export*',
+ Get = 'mobilehub:Get*',
+ List = 'mobilehub:List*',
  CreateProject = 'mobilehub:CreateProject',
  CreateServiceRole = 'mobilehub:CreateServiceRole',
  DeleteProject = 'mobilehub:DeleteProject',

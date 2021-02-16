@@ -1,5 +1,16 @@
 
 export enum storagegateway {
+ All = 'storagegateway:*',
+ Add = 'storagegateway:Add*',
+ Cancel = 'storagegateway:Cancel*',
+ Create = 'storagegateway:Create*',
+ Delete = 'storagegateway:Delete*',
+ Describe = 'storagegateway:Describe*',
+ List = 'storagegateway:List*',
+ Retrieve = 'storagegateway:Retrieve*',
+ Set = 'storagegateway:Set*',
+ Start = 'storagegateway:Start*',
+ Update = 'storagegateway:Update*',
  ActivateGateway = 'storagegateway:ActivateGateway',
  AddCache = 'storagegateway:AddCache',
  AddTagsToResource = 'storagegateway:AddTagsToResource',

@@ -1,5 +1,10 @@
 
 export enum ram {
+ All = 'ram:*',
+ Associate = 'ram:Associate*',
+ Disassociate = 'ram:Disassociate*',
+ Get = 'ram:Get*',
+ List = 'ram:List*',
  AcceptResourceShareInvitation = 'ram:AcceptResourceShareInvitation',
  AssociateResourceShare = 'ram:AssociateResourceShare',
  AssociateResourceSharePermission = 'ram:AssociateResourceSharePermission',

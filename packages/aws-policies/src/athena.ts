@@ -1,5 +1,12 @@
 
 export enum athena {
+ All = 'athena:*',
+ Batch = 'athena:Batch*',
+ Create = 'athena:Create*',
+ Delete = 'athena:Delete*',
+ Get = 'athena:Get*',
+ List = 'athena:List*',
+ Update = 'athena:Update*',
  BatchGetNamedQuery = 'athena:BatchGetNamedQuery',
  BatchGetQueryExecution = 'athena:BatchGetQueryExecution',
  CreateDataCatalog = 'athena:CreateDataCatalog',

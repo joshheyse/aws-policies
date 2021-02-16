@@ -1,5 +1,16 @@
 
 export enum ecs {
+ All = 'ecs:*',
+ Create = 'ecs:Create*',
+ Delete = 'ecs:Delete*',
+ Deregister = 'ecs:Deregister*',
+ Describe = 'ecs:Describe*',
+ List = 'ecs:List*',
+ Put = 'ecs:Put*',
+ Register = 'ecs:Register*',
+ Start = 'ecs:Start*',
+ Submit = 'ecs:Submit*',
+ Update = 'ecs:Update*',
  CreateCapacityProvider = 'ecs:CreateCapacityProvider',
  CreateCluster = 'ecs:CreateCluster',
  CreateService = 'ecs:CreateService',

@@ -1,5 +1,7 @@
 
 export enum dlm {
+ All = 'dlm:*',
+ Get = 'dlm:Get*',
  CreateLifecyclePolicy = 'dlm:CreateLifecyclePolicy',
  DeleteLifecyclePolicy = 'dlm:DeleteLifecyclePolicy',
  GetLifecyclePolicies = 'dlm:GetLifecyclePolicies',

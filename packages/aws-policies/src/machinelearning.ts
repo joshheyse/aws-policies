@@ -1,5 +1,11 @@
 
 export enum machinelearning {
+ All = 'machinelearning:*',
+ Create = 'machinelearning:Create*',
+ Delete = 'machinelearning:Delete*',
+ Describe = 'machinelearning:Describe*',
+ Get = 'machinelearning:Get*',
+ Update = 'machinelearning:Update*',
  AddTags = 'machinelearning:AddTags',
  CreateBatchPrediction = 'machinelearning:CreateBatchPrediction',
  CreateDataSourceFromRDS = 'machinelearning:CreateDataSourceFromRDS',

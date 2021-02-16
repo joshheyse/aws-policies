@@ -1,5 +1,8 @@
 
 export enum mediaconnect {
+ All = 'mediaconnect:*',
+ List = 'mediaconnect:List*',
+ Update = 'mediaconnect:Update*',
  AddFlowOutputs = 'mediaconnect:AddFlowOutputs',
  CreateFlow = 'mediaconnect:CreateFlow',
  DeleteFlow = 'mediaconnect:DeleteFlow',

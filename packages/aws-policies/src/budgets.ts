@@ -1,5 +1,7 @@
 
 export enum budgets {
+ All = 'budgets:*',
+ Describe = 'budgets:Describe*',
  CreateBudgetAction = 'budgets:CreateBudgetAction',
  DeleteBudgetAction = 'budgets:DeleteBudgetAction',
  DescribeBudgetAction = 'budgets:DescribeBudgetAction',

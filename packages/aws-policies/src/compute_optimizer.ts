@@ -1,5 +1,8 @@
 
 export enum compute_optimizer {
+ All = 'compute-optimizer:*',
+ Export = 'compute-optimizer:Export*',
+ Get = 'compute-optimizer:Get*',
  DescribeRecommendationExportJobs = 'compute-optimizer:DescribeRecommendationExportJobs',
  ExportAutoScalingGroupRecommendations = 'compute-optimizer:ExportAutoScalingGroupRecommendations',
  ExportEC2InstanceRecommendations = 'compute-optimizer:ExportEC2InstanceRecommendations',

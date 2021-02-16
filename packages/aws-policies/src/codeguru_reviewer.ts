@@ -1,5 +1,8 @@
 
 export enum codeguru_reviewer {
+ All = 'codeguru-reviewer:*',
+ Describe = 'codeguru-reviewer:Describe*',
+ List = 'codeguru-reviewer:List*',
  AssociateRepository = 'codeguru-reviewer:AssociateRepository',
  CreateConnectionToken = 'codeguru-reviewer:CreateConnectionToken',
  DescribeCodeReview = 'codeguru-reviewer:DescribeCodeReview',

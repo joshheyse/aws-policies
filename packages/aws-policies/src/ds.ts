@@ -1,5 +1,18 @@
 
 export enum ds {
+ All = 'ds:*',
+ Add = 'ds:Add*',
+ Create = 'ds:Create*',
+ Delete = 'ds:Delete*',
+ Deregister = 'ds:Deregister*',
+ Describe = 'ds:Describe*',
+ Disable = 'ds:Disable*',
+ Enable = 'ds:Enable*',
+ Get = 'ds:Get*',
+ List = 'ds:List*',
+ Register = 'ds:Register*',
+ Remove = 'ds:Remove*',
+ Update = 'ds:Update*',
  AcceptSharedDirectory = 'ds:AcceptSharedDirectory',
  AddIpRoutes = 'ds:AddIpRoutes',
  AddTagsToResource = 'ds:AddTagsToResource',

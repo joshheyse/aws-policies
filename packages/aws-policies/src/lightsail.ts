@@ -1,5 +1,15 @@
 
 export enum lightsail {
+ All = 'lightsail:*',
+ Attach = 'lightsail:Attach*',
+ Create = 'lightsail:Create*',
+ Delete = 'lightsail:Delete*',
+ Detach = 'lightsail:Detach*',
+ Get = 'lightsail:Get*',
+ Reboot = 'lightsail:Reboot*',
+ Start = 'lightsail:Start*',
+ Stop = 'lightsail:Stop*',
+ Update = 'lightsail:Update*',
  AllocateStaticIp = 'lightsail:AllocateStaticIp',
  AttachDisk = 'lightsail:AttachDisk',
  AttachInstancesToLoadBalancer = 'lightsail:AttachInstancesToLoadBalancer',

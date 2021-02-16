@@ -1,5 +1,11 @@
 
 export enum cognito_identity {
+ All = 'cognito-identity:*',
+ Delete = 'cognito-identity:Delete*',
+ Describe = 'cognito-identity:Describe*',
+ Get = 'cognito-identity:Get*',
+ List = 'cognito-identity:List*',
+ Unlink = 'cognito-identity:Unlink*',
  CreateIdentityPool = 'cognito-identity:CreateIdentityPool',
  DeleteIdentities = 'cognito-identity:DeleteIdentities',
  DeleteIdentityPool = 'cognito-identity:DeleteIdentityPool',

@@ -1,5 +1,16 @@
 
 export enum cognito_idp {
+ All = 'cognito-idp:*',
+ Admin = 'cognito-idp:Admin*',
+ Confirm = 'cognito-idp:Confirm*',
+ Create = 'cognito-idp:Create*',
+ Delete = 'cognito-idp:Delete*',
+ Describe = 'cognito-idp:Describe*',
+ Get = 'cognito-idp:Get*',
+ List = 'cognito-idp:List*',
+ Set = 'cognito-idp:Set*',
+ Update = 'cognito-idp:Update*',
+ Verify = 'cognito-idp:Verify*',
  AddCustomAttributes = 'cognito-idp:AddCustomAttributes',
  AdminAddUserToGroup = 'cognito-idp:AdminAddUserToGroup',
  AdminConfirmSignUp = 'cognito-idp:AdminConfirmSignUp',

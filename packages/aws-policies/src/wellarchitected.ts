@@ -1,5 +1,11 @@
 
 export enum wellarchitected {
+ All = 'wellarchitected:*',
+ Create = 'wellarchitected:Create*',
+ Delete = 'wellarchitected:Delete*',
+ Get = 'wellarchitected:Get*',
+ List = 'wellarchitected:List*',
+ Update = 'wellarchitected:Update*',
  AssociateLenses = 'wellarchitected:AssociateLenses',
  CreateMilestone = 'wellarchitected:CreateMilestone',
  CreateWorkload = 'wellarchitected:CreateWorkload',

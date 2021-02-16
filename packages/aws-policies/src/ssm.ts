@@ -1,5 +1,18 @@
 
 export enum ssm {
+ All = 'ssm:*',
+ Cancel = 'ssm:Cancel*',
+ Create = 'ssm:Create*',
+ Delete = 'ssm:Delete*',
+ Deregister = 'ssm:Deregister*',
+ Describe = 'ssm:Describe*',
+ Get = 'ssm:Get*',
+ List = 'ssm:List*',
+ Put = 'ssm:Put*',
+ Register = 'ssm:Register*',
+ Send = 'ssm:Send*',
+ Start = 'ssm:Start*',
+ Update = 'ssm:Update*',
  AddTagsToResource = 'ssm:AddTagsToResource',
  CancelCommand = 'ssm:CancelCommand',
  CancelMaintenanceWindowExecution = 'ssm:CancelMaintenanceWindowExecution',

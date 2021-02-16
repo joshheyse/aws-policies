@@ -1,5 +1,12 @@
 
 export enum codestar_connections {
+ All = 'codestar-connections:*',
+ Create = 'codestar-connections:Create*',
+ Delete = 'codestar-connections:Delete*',
+ Get = 'codestar-connections:Get*',
+ List = 'codestar-connections:List*',
+ Start = 'codestar-connections:Start*',
+ Update = 'codestar-connections:Update*',
  CreateConnection = 'codestar-connections:CreateConnection',
  CreateHost = 'codestar-connections:CreateHost',
  DeleteConnection = 'codestar-connections:DeleteConnection',

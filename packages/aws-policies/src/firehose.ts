@@ -1,5 +1,8 @@
 
 export enum firehose {
+ All = 'firehose:*',
+ List = 'firehose:List*',
+ Put = 'firehose:Put*',
  CreateDeliveryStream = 'firehose:CreateDeliveryStream',
  DeleteDeliveryStream = 'firehose:DeleteDeliveryStream',
  DescribeDeliveryStream = 'firehose:DescribeDeliveryStream',

@@ -1,5 +1,8 @@
 
 export enum launchwizard {
+ All = 'launchwizard:*',
+ Describe = 'launchwizard:Describe*',
+ Get = 'launchwizard:Get*',
  DeleteApp = 'launchwizard:DeleteApp',
  DescribeProvisionedApp = 'launchwizard:DescribeProvisionedApp',
  DescribeProvisioningEvents = 'launchwizard:DescribeProvisioningEvents',

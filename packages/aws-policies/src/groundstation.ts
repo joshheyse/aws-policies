@@ -1,5 +1,11 @@
 
 export enum groundstation {
+ All = 'groundstation:*',
+ Create = 'groundstation:Create*',
+ Delete = 'groundstation:Delete*',
+ Get = 'groundstation:Get*',
+ List = 'groundstation:List*',
+ Update = 'groundstation:Update*',
  CancelContact = 'groundstation:CancelContact',
  CreateConfig = 'groundstation:CreateConfig',
  CreateDataflowEndpointGroup = 'groundstation:CreateDataflowEndpointGroup',

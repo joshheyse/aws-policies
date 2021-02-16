@@ -1,5 +1,11 @@
 
 export enum elasticbeanstalk {
+ All = 'elasticbeanstalk:*',
+ Create = 'elasticbeanstalk:Create*',
+ Delete = 'elasticbeanstalk:Delete*',
+ Describe = 'elasticbeanstalk:Describe*',
+ List = 'elasticbeanstalk:List*',
+ Update = 'elasticbeanstalk:Update*',
  AbortEnvironmentUpdate = 'elasticbeanstalk:AbortEnvironmentUpdate',
  AddTags = 'elasticbeanstalk:AddTags',
  ApplyEnvironmentManagedAction = 'elasticbeanstalk:ApplyEnvironmentManagedAction',
