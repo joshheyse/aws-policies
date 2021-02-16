@@ -4,7 +4,6 @@ export enum chime {
  Add = 'chime:Add*',
  Associate = 'chime:Associate*',
  Batch = 'chime:Batch*',
- Connect = 'chime:Connect*',
  Create = 'chime:Create*',
  Delete = 'chime:Delete*',
  Describe = 'chime:Describe*',

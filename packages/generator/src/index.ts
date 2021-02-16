@@ -74,7 +74,7 @@ async function main() {
     const groups = _.groupBy(uniqActions, a => getFirstWord(a));
 
     const wildcardActions = _.compact(_.map(groups, (v, k) => {
-      if(v.length > 1) {
+      if(v.length > 1 && v.indexOf(k) === -1) {
         return {name: k, value: `${k}*`};
       }
       return null;
@@ -94,7 +94,6 @@ async function main() {
   }), _.identity);
 
   Promise.all(_.map(services, async (v) => {
-    console.log(v);
     const code = enum_template(v);
     await fs.promises.writeFile(path.join(outDir, `${v.name}.ts`), code);
   }));
