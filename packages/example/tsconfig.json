@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "./generate.ts",
+    "node_modules"
+  ],
+  "include": [
+    "./src"
+  ]
+}
+

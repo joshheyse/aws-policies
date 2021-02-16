@@ -1,0 +1,19 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "Josh Heyse <josh@heyse.us>",
+  "homepage": "https://github.com/joshheyse/aws-policies/tree/master/packages/example#readme",
+  "license": "ISC",
+  "private": true,
+  "main": "scr/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshheyse/aws-policies.git"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-iam": "^1.89.0",
+    "@aws-cdk/aws-s3": "^1.89.0",
+    "aws-policies": "^1.0.0"
+  }
+}
